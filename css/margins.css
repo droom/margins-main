@@ -1,0 +1,120 @@
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  position: relative;
+}
+
+img.round {
+  border-radius: 10px;
+}
+img.circle {
+  border-radius: 50%;
+}
+
+.wordmark {
+  pointer-events: none;
+  perspective: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 16px 20px;
+}
+.wordmark img {
+  width: 100%;
+}
+
+header.wordmark.top {
+  z-index: 9990;
+  opacity: 0.2;
+}
+
+footer {
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+  left: 0;
+}
+
+footer small {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  color: black;
+  z-index: 9999;
+  padding: 16px 20px;
+  text-transform: uppercase;
+}
+
+footer small.copyright {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  color: black;
+  z-index: 9999;
+  padding: 16px 20px;
+  text-transform: uppercase;
+}
+
+.loop {
+  position: relative;
+  height: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  overflow: none;
+}
+
+
+section {
+  position: relative;
+  text-align: center;
+  min-height: 400px;
+  height: 80%;
+}
+section video,
+section img {
+  height: 100%;
+}
+section {
+  z-index: 999;
+}
+section.four img {
+  z-index: 999;
+}
+section.overlay {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 9999999;
+  pointer-events: none;
+  opacity: 0;
+  position: fixed;
+  transition: all 200ms ease;
+  top: 0;
+  left: 0;
+}
+
+.info {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  background: black;
+  border-radius: 50%;
+  z-index: 99999999999;
+  transition: all 200ms ease;
+  border: 3px solid white;
+}
+.info:hover {
+  cursor: pointer;
+}
+
+.screen {
+  mix-blend-mode: screen;
+}
+.multiply {
+  mix-blend-mode: multiply;
+}
