@@ -1,6 +1,6 @@
 var doc = window.document,
   context = doc.querySelector('#loop'),
-  clones = context.querySelectorAll('.is-clone'),
+  clones = context.querySelectorAll('.clone'),
   disableScroll = false,
   scrollHeight = 0,
   scrollPos = 0,
@@ -80,14 +80,15 @@ if (document.readyState !== 'loading') {
 
 
 
-
-
-
-
 // Just for this demo: Center the middle block on page load
 window.onload = function () {
   setScrollPos(Math.round(clones[0].getBoundingClientRect().top + getScrollPos() - (context.offsetHeight - clones[0].offsetHeight) / 2));
 };
+
+
+
+
+// menu
 
 var menuShow;
 menuShow = false;
@@ -95,32 +96,21 @@ menuShow = false;
 
 $( "#target" ).click(function() {
   
-  if ( menuShow === true ) {
-  // $( "#foo" ).show();
-  // $(".overlay").css("display","block");
+  if ( menuShow === false ) {
   $(".overlay").css("background-color","black");
   $(".overlay").css("opacity","1");
-    
-    
   $(".info").css("background-color","white");
   $(".info").css("box-shadow","0 0 20px 10px rgba(255,255,255,0.4), 0 0 100px 60px rgba(255,255,255,0.2)");
     
+  menuShow = true;
     
-    menuShow = false;
-    
-} else if ( menuShow === false ) {
-  // $( "#foo" ).hide();
-  // $(".overlay").css("display","none");
+} else if ( menuShow === true ) {
   $(".overlay").css("opacity","0");
-  
   $(".overlay").css("background-color","white");
-  
   $(".info").css("background-color","black");
   $(".info").css("box-shadow","none");
-  
-    menuShow = true;
-  
-  
+
+  menuShow = false;
 }
   
   

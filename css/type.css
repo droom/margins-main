@@ -1,0 +1,10 @@
+.h1{
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.overlay{
+  color: white;
+    align-self: start;
+  justify-items: left;
+}
