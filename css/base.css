@@ -1,0 +1,26 @@
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+*{
+  outline: 1px solid red;
+  
+}
+
+body {
+  position: relative;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+
+.loop {
+  position: relative;
+  height: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
