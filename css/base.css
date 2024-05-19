@@ -3,10 +3,11 @@ html, body {
   overflow: hidden;
 }
 
+/*
 *{
   outline: 1px solid red;
-  
 }
+*/
 
 body {
   position: relative;
@@ -21,6 +22,8 @@ img{
 .loop {
   position: relative;
   height: 100%;
+  width: 97vw;
+  margin: auto;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
 }
