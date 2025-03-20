@@ -1,0 +1,167 @@
+@font-face {
+  font-family: "GT-Pressura-1";
+  src: url(../fonts/GT-Pressura-Extended-Light-Trial.woff2) format("woff2");
+}
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  height: 100%;
+  color: #181818;
+  background-color: #f5f5f0;
+  background-image: url("../brand/textures/texture-04.png");
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+img.max {
+  width: 100%;
+}
+
+.grid-main {
+  display: flex;
+  flex-direction: column;
+  flex-flow: column nowrap;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+header.wordmark img {
+  width: calc(100vw - 30px);
+  margin-top: 8px;
+  margin-left: 15px;
+  margin-right: 10px;
+  margin-bottom: 15;
+  mix-blend-mode: multiply;
+  opacity: 0.95;
+}
+
+main.main {
+  width: calc(100vw - 30px);
+  margin-top: 8px;
+  margin-left: 15px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  height: 100%;
+  overflow: hidden;
+}
+
+main.main .hero {
+  background: rgb(117, 180, 198);
+  background: linear-gradient(167deg, rgb(117, 180, 198) 12%, rgb(158, 205, 215) 66%, rgb(158, 205, 215) 100%);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 100%;
+  border-radius: 5px;
+}
+
+footer.footer {
+  display: flex;
+  width: calc(100vw - 30px);
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  justify-content: space-between;
+}
+
+footer.footer small {
+  font-size: 15px;
+  line-height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+footer.footer small strong {
+  font-weight: 600;
+  font-size: 17px;
+}
+
+footer.footer small + small {
+  margin-left: 15px;
+}
+
+.h1 {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.h3 {
+  margin: 0;
+  padding: 5px 0 0 0;
+  font-size: 18px;
+}
+
+.caps {
+  text-transform: uppercase;
+}
+
+@keyframes gradients {
+  0% {
+    background-position: 0 0;
+  }
+  25% {
+    background-position: 50% 0;
+  }
+  50% {
+    background-position: 90% 0;
+  }
+  60% {
+    background-position: 60%;
+  }
+  75% {
+    background-position: 40%;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+.gradient {
+  align-items: center;
+  background-image: linear-gradient(to right, #7fa9b3, #83b6bf, #87b2bc, #7ab1bb);
+  background-size: 600%;
+  background-position: 0 0;
+  display: flex;
+  height: 170px;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-name: gradients;
+}
+
+.mask1 {
+  mask-image: url("../brand/logo-black-gt.png");
+  mask-repeat: no-repeat;
+  mask-size: contain;
+  margin: 10px;
+}
+
+.fs-video {
+  height: 100vh;
+  position: relative;
+  mix-blend-mode: multiply;
+}
+
+video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+}
