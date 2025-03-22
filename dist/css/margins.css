@@ -1,32 +1,59 @@
-@font-face {
-  font-family: "GT-Pressura-1";
-  src: url(../fonts/GT-Pressura-Extended-Light-Trial.woff2) format("woff2");
-}
 *, ::before, ::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-html {
-  height: 100%;
-  overflow: hidden;
-}
-
 body {
-  height: 100%;
-  color: #181818;
-  background-color: #f5f5f0;
-  background-image: url("../brand/textures/texture-04.png");
   padding: 0;
   margin: 0;
+}
+
+small {
+  margin: 0;
+  padding: 0;
+}
+
+.page-1 {
+  height: 100vh;
+  position: relative;
+  width: 100wh;
+}
+
+.page-2 {
+  background-color: #181818;
+  height: 100vh;
+  width: 100wh;
+}
+
+@font-face {
+  font-family: "GT-Pressura-1";
+  src: url("../fonts/GT-Pressura-Extended-Light-Trial.woff2") format("woff2");
+}
+body {
   font-family: "Inter", serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
 
-img.max {
-  width: 100%;
+small {
+  font-size: 15px;
+}
+
+.caps {
+  text-transform: uppercase;
+}
+
+.flat {
+  line-height: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
 }
 
 .grid-main {
@@ -42,74 +69,73 @@ img.max {
   left: 0;
 }
 
-header.wordmark img {
+.wordmark {
   width: calc(100vw - 30px);
   margin-top: 8px;
-  margin-left: 15px;
   margin-right: 10px;
-  margin-bottom: 15;
-  mix-blend-mode: multiply;
-  opacity: 0.95;
+  margin-bottom: 0;
+  margin-left: 15px;
 }
 
-main.main {
+.hero {
   width: calc(100vw - 30px);
   margin-top: 8px;
-  margin-left: 15px;
   margin-right: 10px;
   margin-bottom: 15px;
+  margin-left: 15px;
   height: 100%;
-  overflow: hidden;
 }
 
-main.main .hero {
-  background: rgb(117, 180, 198);
-  background: linear-gradient(167deg, rgb(117, 180, 198) 12%, rgb(158, 205, 215) 66%, rgb(158, 205, 215) 100%);
-  background-position: 50% 50%;
-  background-size: cover;
+.hero .sky {
   height: 100%;
-  border-radius: 5px;
 }
 
-footer.footer {
+.links {
   display: flex;
+  justify-content: space-between;
   width: calc(100vw - 30px);
   margin-top: 5px;
-  margin-left: 15px;
   margin-right: 10px;
-  margin-bottom: 15px;
-  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-left: 15px;
 }
 
-footer.footer small {
+.links small {
   font-size: 15px;
-  line-height: 0;
   margin: 0;
   padding: 0;
 }
 
 footer.footer small strong {
   font-weight: 600;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 footer.footer small + small {
   margin-left: 15px;
 }
 
-.h1 {
-  font-size: 22px;
-  font-weight: 400;
+body {
+  color: #181818;
+  background-color: #f5f5f0;
+  background-image: url("../brand/textures/texture-04.png");
 }
 
-.h3 {
-  margin: 0;
-  padding: 5px 0 0 0;
-  font-size: 18px;
+img.max {
+  width: 100%;
 }
 
-.caps {
-  text-transform: uppercase;
+.wordmark img {
+  mix-blend-mode: multiply;
+  opacity: 0.95;
+}
+
+.hero .sky {
+  background: rgb(117, 180, 198);
+  background: linear-gradient(167deg, rgb(117, 180, 198) 12%, rgb(158, 205, 215) 66%, rgb(158, 205, 215) 100%);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 5px;
 }
 
 @keyframes gradients {
@@ -151,7 +177,7 @@ footer.footer small + small {
   margin: 10px;
 }
 
-.fs-video {
+.birds {
   height: 100vh;
   position: relative;
   mix-blend-mode: multiply;

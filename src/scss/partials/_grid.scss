@@ -1,0 +1,71 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.grid-main{
+  display:          flex;
+  flex-direction:   column;
+  flex-flow:        column nowrap;
+  flex-wrap:        nowrap;
+  justify-content:  space-between;
+  height:           100vh;
+  width:            100vw;
+
+  position:         absolute;
+  top:              0;
+  left:             0;
+}
+
+.wordmark {
+  width:            calc(100vw - 30px);
+
+  margin-top:       8px;
+  margin-right:     10px;
+  margin-bottom:    0;
+  margin-left:      15px;
+
+  }
+
+.hero{
+  width:            calc(100vw - 30px);
+  margin-top:       8px;
+  margin-right:     10px;
+  margin-bottom:    15px;
+  margin-left:      15px;
+  height:           100%;
+}
+
+.hero .sky{
+  height: 100%;
+}
+
+.links {
+  display:          flex;
+  justify-content:  space-between;
+
+  width:            calc(100vw - 30px);
+  margin-top:       5px;
+  margin-right:     10px;
+  margin-bottom:    20px;
+  margin-left:      15px;
+}
+
+.links small{
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+footer.footer small strong{
+    font-weight: 600;
+    font-size: 15px;
+
+}
+
+footer.footer small + small{
+  margin-left: 15px;
+}

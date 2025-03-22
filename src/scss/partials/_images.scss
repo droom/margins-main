@@ -1,0 +1,17 @@
+img.max{
+  width: 100%;
+}
+
+.wordmark img {
+  mix-blend-mode: multiply;
+  opacity: 0.95;
+}
+
+.hero .sky{
+  // sky 
+  background: rgb(117,180,198);
+  background: linear-gradient(167deg, rgba(117,180,198,1) 12%, rgba(158,205,215,1) 66%, rgba(158,205,215,1) 100%); 
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 5px;
+}

@@ -1,121 +1,29 @@
-@font-face {
-  font-family: 'GT-Pressura-1';
-  src: url(../fonts/GT-Pressura-Extended-Light-Trial.woff2) format('woff2');
-}
-
 *, ::before, ::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    box-sizing:   border-box;
+    margin:       0;
+    padding:      0;
 }
 
-html {
-  height: 100%;
-  overflow: hidden;
-}
 body {
-  height: 100%;
-  color: #181818;
-  background-color: #f5f5f0;
-  // background-color: red;
-  background-image: url("../brand/textures/texture-04.png");
-  padding: 0;
-  margin: 0;
-  font-family: "Inter", serif;
-    // font-family: "Inter Tight", sans-serif;
-  font-optical-sizing: auto;
-  // font-weight: <weight>;
-  font-style: normal;
+  padding:        0;
+  margin:         0;
 }
 
-img.max{
-  width: 100%;
+small{
+  margin:         0;
+  padding:        0;
 }
 
-.grid-main{
-  display: flex;
-  flex-direction: column;
-  flex-flow: column nowrap;
-  flex-wrap: nowrap;
-  justify-content: space-between;
+
+
+.page-1{
   height: 100vh;
-  width: 100vw;
-
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: relative;
+  width: 100wh;
 }
 
-header.wordmark img {
-  width: calc(100vw - 30px);
-
-  margin-top: 8px;
-  margin-left: 15px;
-  margin-right: 10px;
-  margin-bottom: 15;
-
-  mix-blend-mode: multiply;
-  opacity: 0.95;
-
-  // text-align: center;
-  }
-
-main.main{
-  width: calc(100vw - 30px);
-
-  margin-top: 8px;
-  margin-left: 15px;
-  margin-right: 10px;
-  margin-bottom: 15px;
-
-  // margin-top: 0;
-  height: 100%;
-  overflow: hidden;
-
-}
-
-main.main .hero{
-  // background-image:url("../brand/hero/sky-01.jpg");
-   background: rgb(117,180,198);
-background: linear-gradient(167deg, rgba(117,180,198,1) 12%, rgba(158,205,215,1) 66%, rgba(158,205,215,1) 100%); 
-
-
-  background-position: 50% 50%;
-  background-size: cover;
-  height: 100%;
-  border-radius: 5px;
-
-}
-
-footer.footer {
-  // padding: 6px 0 17px 0;
-  display: flex;
-
-
-  width: calc(100vw - 30px);
-
-  margin-top: 5px;
-  margin-left: 15px;
-  margin-right: 10px;
-  margin-bottom: 15px;
-
-    justify-content: space-between;
-
-}
-
-footer.footer small{
-    font-size: 15px;
-    line-height: 0;
-    margin: 0;
-    padding: 0;
-}
-
-footer.footer small strong{
-    font-weight: 600;
-    font-size: 17px;
-
-}
-
-footer.footer small + small{
-  margin-left: 15px;
+.page-2{
+  background-color: #181818;
+  height: 100vh;
+  width: 100wh;
 }
