@@ -14,18 +14,6 @@ small {
   padding: 0;
 }
 
-.page-1 {
-  height: 100vh;
-  position: relative;
-  width: 100wh;
-}
-
-.page-2 {
-  background-color: #181818;
-  height: 100vh;
-  width: 100wh;
-}
-
 @font-face {
   font-family: "GT-Pressura-1";
   src: url("../fonts/GT-Pressura-Extended-Light-Trial.woff2") format("woff2");
@@ -34,6 +22,7 @@ body {
   font-family: "Inter", serif;
   font-optical-sizing: auto;
   font-style: normal;
+  line-height: 1.35rem;
 }
 
 small {
@@ -56,6 +45,28 @@ body {
   height: 100%;
 }
 
+.page {
+  position: relative;
+  height: 100vh;
+  width: 100wh;
+}
+
+.page-2,
+.page-3 {
+  background: #181818;
+  color: #ccc;
+}
+
+.page-3 {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.page-4 {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  background: #181838;
+  color: #ccc;
+}
+
 .grid-main {
   display: flex;
   flex-direction: column;
@@ -71,7 +82,7 @@ body {
 
 .wordmark {
   width: calc(100vw - 30px);
-  margin-top: 8px;
+  margin-top: 10px;
   margin-right: 10px;
   margin-bottom: 0;
   margin-left: 15px;
@@ -84,6 +95,7 @@ body {
   margin-bottom: 15px;
   margin-left: 15px;
   height: 100%;
+  overflow: hidden;
 }
 
 .hero .sky {
@@ -98,21 +110,11 @@ body {
   margin-right: 10px;
   margin-bottom: 20px;
   margin-left: 15px;
+  gap: 10px 20px;
 }
 
-.links small {
-  font-size: 15px;
-  margin: 0;
-  padding: 0;
-}
-
-footer.footer small strong {
-  font-weight: 600;
-  font-size: 15px;
-}
-
-footer.footer small + small {
-  margin-left: 15px;
+.links.top {
+  margin-top: 10px;
 }
 
 body {
@@ -131,6 +133,13 @@ img.max {
 }
 
 .hero .sky {
+  background: rgb(117, 180, 198);
+  background: linear-gradient(167deg, rgb(117, 180, 198) 12%, rgb(158, 205, 215) 66%, rgb(158, 205, 215) 100%);
+  background-position: 50% 50%;
+  border-radius: 5px;
+}
+
+.hero .matte {
   background: rgb(117, 180, 198);
   background: linear-gradient(167deg, rgb(117, 180, 198) 12%, rgb(158, 205, 215) 66%, rgb(158, 205, 215) 100%);
   background-position: 50% 50%;
@@ -190,4 +199,24 @@ video {
   object-fit: cover;
   top: 0;
   left: 0;
+}
+
+img.hide {
+  opacity: 0;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  scroll-behavior: smooth;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+}
+
+.page {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  scroll-snap-align: start;
 }
