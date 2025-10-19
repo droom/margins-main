@@ -1,0 +1,260 @@
+/*html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+*/
+#stickers {
+  // background: #2c3e50;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: flex-start;
+  // padding: 50px;
+  box-sizing: border-box;
+
+
+}
+
+
+
+
+
+#stickers .sticker {
+  flex: 0 0 auto;
+  margin: 50px;
+  -webkit-tap-highlight-color: transparent;
+}
+#stickers .sticker * {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  pointer-events: none;
+}
+#stickers .sticker .sticker-container {
+  position: relative;
+  transform-style: preserve-3d;
+}
+#stickers .sticker .sticker-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#stickers .sticker .sticker-clip {
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+}
+#stickers .sticker .sticker-front, #stickers .sticker-back {
+  position: absolute;
+  overflow: hidden;
+  pointer-events: all;
+}
+#stickers .sticker .sticker-front {
+  z-index: 1;
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+
+
+}
+#stickers .sticker .sticker-back {
+  z-index: 2;
+}
+#stickers .sticker .sticker-clip {
+  transition: 500ms ease-in-out transform;
+}
+#stickers .sticker .sticker-front, #stickers .sticker .sticker-back {
+  transition: 500ms ease-in-out transform;
+}
+
+
+
+
+#stickers .sticker-2 {
+  width: 150px;
+  height: 100px;
+/*  text-align: center;*/
+}
+#stickers .sticker-2 .sticker-container {
+  width: 180.2817635663px;
+  height: 180.2817635663px;
+  top: -40.1408817831px;
+  left: -15.1408817831px;
+  transform: rotate(0deg);
+}
+#stickers .sticker-2 .sticker-wrapper {
+  width: 180.2817635663px;
+  height: 180.2817635663px;
+  transform: rotate(60deg);
+}
+#stickers .sticker-2 .sticker-clip {
+  width: 180.2817635663px;
+  height: 180.2817635663px;
+}
+#stickers .sticker-2 .sticker-front, #stickers .sticker-2 .sticker-back {
+  left: 15.1408817831px;
+  top: 40.1408817831px;
+  width: 150px;
+  height: 100px;
+  border-radius: 20px;
+}
+#stickers .sticker-2 .sticker-clip {
+  transform: translateX(16.5488110638px);
+}
+#stickers .sticker-2 .sticker-front {
+  transform: rotate(-60deg) translateX(-8.2744055319px) translateY(-14.3316907837px);
+}
+#stickers .sticker-2 .sticker-back {
+  transform: rotate(240deg) translateX(81.8664694016px) translateY(-141.7968950532px);
+}
+#stickers .sticker-2:hover .sticker-clip {
+  transform: translateX(75.4224676393px);
+}
+#stickers .sticker-2:hover .sticker-front {
+  transform: rotate(-60deg) translateX(-37.7112338196px) translateY(-65.3177729917px);
+}
+#stickers .sticker-2:hover .sticker-back {
+  transform: rotate(240deg) translateX(52.4296435768px) translateY(-90.8108132948px);
+}
+#stickers .sticker-2 .sticker-front {
+  background-color: #3498db;
+}
+#stickers .sticker-2 .sticker-back {
+  background-color: #2980b9;
+}
+
+
+
+
+
+
+
+#stickers .sticker-4 {
+  width: 120px;
+  height: 120px;
+}
+#stickers .sticker-4 .sticker-container {
+  width: 169.7075756307px;
+  height: 169.7075756307px;
+  top: -24.8537878154px;
+  left: -24.8537878154px;
+  transform: rotate(0deg);
+}
+#stickers .sticker-4 .sticker-wrapper {
+  width: 169.7075756307px;
+  height: 169.7075756307px;
+  transform: rotate(120deg);
+}
+#stickers .sticker-4 .sticker-clip {
+  width: 169.7075756307px;
+  height: 169.7075756307px;
+}
+#stickers .sticker-4 .sticker-front, #stickers .sticker-4 .sticker-back {
+  left: 24.8537878154px;
+  top: 24.8537878154px;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+}
+#stickers .sticker-4 .sticker-clip {
+  transform: translateX(24.4325038789px);
+}
+#stickers .sticker-4 .sticker-front {
+  transform: rotate(-120deg) translateX(12.2162519394px) translateY(-21.1591690372px);
+}
+#stickers .sticker-4 .sticker-back {
+  transform: rotate(300deg) translateX(-72.6383453319px) translateY(-125.811717688px);
+}
+#stickers .sticker-4:hover .sticker-clip {
+  transform: translateX(121.1065581772px);
+}
+#stickers .sticker-4:hover .sticker-front {
+  transform: rotate(-120deg) translateX(60.5532790886px) translateY(-104.8813559464px);
+}
+#stickers .sticker-4:hover .sticker-back {
+  transform: rotate(300deg) translateX(-24.300779526px) translateY(-42.0896538785px);
+}
+#stickers .sticker-4 .sticker-front {
+  background-color: #e74c3c;
+}
+#stickers .sticker-4 .sticker-back {
+  background-color: #c0392b;
+}
+
+
+
+
+
+#stickers .sticker-6 {
+  width: 100px;
+  height: 150px;
+}
+#stickers .sticker-6 .sticker-container {
+  width: 180.2817635663px;
+  height: 180.2817635663px;
+  top: -15.1408817831px;
+  left: -40.1408817831px;
+  transform: rotate(0deg);
+}
+#stickers .sticker-6 .sticker-wrapper {
+  width: 180.2817635663px;
+  height: 180.2817635663px;
+  transform: rotate(10deg);
+}
+#stickers .sticker-6 .sticker-clip {
+  width: 180.2817635663px;
+  height: 180.2817635663px;
+}
+#stickers .sticker-6 .sticker-front, #stickers .sticker-6 .sticker-back {
+  left: 40.1408817831px;
+  top: 15.1408817831px;
+  width: 100px;
+  height: 150px;
+  border-radius: 50px;
+}
+#stickers .sticker-6 .sticker-clip {
+  transform: translateX(35.0187308105px);
+}
+#stickers .sticker-6 .sticker-front {
+  transform: rotate(-10deg) translateX(-34.4867176029px) translateY(-6.0809387895px);
+}
+#stickers .sticker-6 .sticker-back {
+  transform: rotate(190deg) translateX(143.0561608479px) translateY(-25.2246609152px);
+}
+#stickers .sticker-6:hover .sticker-clip {
+  transform: translateX(123.2141723667px);
+}
+#stickers .sticker-6:hover .sticker-front {
+  transform: rotate(-10deg) translateX(-121.3422722277px) translateY(-21.3959164942px);
+}
+#stickers .sticker-6:hover .sticker-back {
+  transform: rotate(190deg) translateX(56.2006062449px) translateY(-9.9096832136px);
+}
+#stickers .sticker-6 .sticker-front {
+  background-color: #f1c40f;
+}
+#stickers .sticker-6 .sticker-back {
+  background-color: #f39c12;
+}
+
+
+.flex{
+  display: flex;
+  text-align: center;
+  background-color: red;
+  width: 100%;
+  height: 100%;
+  color: red;
+}

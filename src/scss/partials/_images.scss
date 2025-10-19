@@ -1,28 +1,60 @@
 img.max{
-  width: 100%;
+  width:            100%;
 }
+
+
+
+.grid-14 img.grid-img-1{
+  grid-column:    5 / span 5;
+  grid-row:       5 / span 5;
+}
+
+.grid-14 img.grid-img-2{
+  grid-column:    9 / span 5;
+  grid-row:       7 / span 5;
+}
+
+.grid-14 img.grid-img-3{
+  grid-column:    7 / span 4;
+  grid-row:       3 / span 5;
+}
+
+
+.grid-14 .grid-img-A{
+  grid-column:    5 / span 5;
+  grid-row:       5 / span 7;
+  background-color: blue;
+  background-image: url('../img/hivstory-01.png');
+  background-size: cover;
+
+}
+
+.grid-14 .grid-img-B{
+  grid-column:    9 / span 5;
+  grid-row:       7 / span 7;
+  background-color: yellow;
+  background-image: url('../img/hivstory-02.png');
+  background-size: cover;
+}
+
+
 
 .wordmark img {
-  mix-blend-mode: multiply;
-  opacity: 0.95;
+  mix-blend-mode:   multiply;
+  opacity:          0.95;
 }
-
-
 
 .hero .sky{
-  // sky 
-  background: rgb(117,180,198);
-  background: linear-gradient(167deg, rgba(117,180,198,1) 12%, rgba(158,205,215,1) 66%, rgba(158,205,215,1) 100%); 
-  background-position: 50% 50%;
-  // background-size: cover;
-  border-radius: 5px;
+  background:           rgb(117,180,198);
+  background:           linear-gradient(167deg, rgba(117,180,198,1) 12%, rgba(158,205,215,1) 66%, rgba(158,205,215,1) 100%); 
+  background-position:  50% 50%;
+  border-radius:        5px;
 }
 
-
 .hero .matte{
-  background: rgb(117,180,198);
-  background: linear-gradient(167deg, rgba(117,180,198,1) 12%, rgba(158,205,215,1) 66%, rgba(158,205,215,1) 100%); 
-  background-position: 50% 50%;
-  background-size: cover;
-  border-radius: 5px;
+  background:           rgb(117,180,198);
+  background:           linear-gradient(167deg, rgba(117,180,198,1) 12%, rgba(158,205,215,1) 66%, rgba(158,205,215,1) 100%); 
+  background-position:  50% 50%;
+  background-size:      cover;
+  border-radius:        5px;
 }

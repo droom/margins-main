@@ -4,6 +4,14 @@
   padding: 0;
 }
 
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -14,9 +22,811 @@ small {
   padding: 0;
 }
 
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
 @font-face {
-  font-family: "GT-Pressura-1";
+  font-family: "GT-Pressura-Extended-Black-Italic-Trial";
+  src: url("../fonts/GT-Pressura-Extended-Black-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Pressura-Black-Italic-Trial";
+  src: url("../fonts/GT-Pressura-Black-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Pressura-Black-Trial";
+  src: url("../fonts/GT-Pressura-Black-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Pressura-Bold-Italic-Trial";
+  src: url("../fonts/GT-Pressura-Bold-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Pressura-Bold-Trial";
+  src: url("../fonts/GT-Pressura-Bold-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Pressura-Extended-Black-Trial";
+  src: url("../fonts/GT-Pressura-Extended-Black-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Pressura-Extended-Bold-Italic-Trial";
+  src: url("../fonts/GT-Pressura-Extended-Bold-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Pressura-Extended-Bold-Trial";
+  src: url("../fonts/GT-Pressura-Extended-Bold-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Pressura-Extended-Light-Italic-Trial";
+  src: url("../fonts/GT-Pressura-Extended-Light-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Pressura-Extended-Light-Trial";
   src: url("../fonts/GT-Pressura-Extended-Light-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Pressura-Extended-Medium-Italic-Trial";
+  src: url("../fonts/GT-Pressura-Extended-Medium-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Pressura-Extended-Medium-Trial";
+  src: url("../fonts/GT-Pressura-Extended-Medium-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Pressura-Extended-Regular-Italic-Trial";
+  src: url("../fonts/GT-Pressura-Extended-Regular-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Pressura-Extended-Regular-Trial";
+  src: url("../fonts/GT-Pressura-Extended-Regular-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Pressura-Extended-Text-Italic-Trial";
+  src: url("../fonts/GT-Pressura-Extended-Text-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Pressura-Extended-Text-Trial";
+  src: url("../fonts/GT-Pressura-Extended-Text-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Pressura-Light-Italic-Trial";
+  src: url("../fonts/GT-Pressura-Light-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Pressura-Light-Trial";
+  src: url("../fonts/GT-Pressura-Light-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Pressura-Medium-Italic-Trial";
+  src: url("../fonts/GT-Pressura-Medium-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Pressura-Medium-Trial";
+  src: url("../fonts/GT-Pressura-Medium-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Pressura-Mono-Black-Italic-Trial";
+  src: url("../fonts/GT-Pressura-Mono-Black-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Pressura-Mono-Black-Trial";
+  src: url("../fonts/GT-Pressura-Mono-Black-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Pressura-Mono-Bold-Italic-Trial";
+  src: url("../fonts/GT-Pressura-Mono-Bold-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Pressura-Mono-Bold-Trial";
+  src: url("../fonts/GT-Pressura-Mono-Bold-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Pressura-Mono-Light-Italic-Trial";
+  src: url("../fonts/GT-Pressura-Mono-Light-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Pressura-Mono-Light-Trial";
+  src: url("../fonts/GT-Pressura-Mono-Light-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Pressura-Mono-Medium-Italic-Trial";
+  src: url("../fonts/GT-Pressura-Mono-Medium-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Pressura-Mono-Medium-Trial";
+  src: url("../fonts/GT-Pressura-Mono-Medium-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Pressura-Mono-Regular-Italic-Trial";
+  src: url("../fonts/GT-Pressura-Mono-Regular-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Pressura-Mono-Regular-Trial";
+  src: url("../fonts/GT-Pressura-Mono-Regular-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Pressura-Mono-Text-Italic-Trial";
+  src: url("../fonts/GT-Pressura-Mono-Text-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Pressura-Mono-Text-Trial";
+  src: url("../fonts/GT-Pressura-Mono-Text-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Pressura-Regular-Italic-Trial";
+  src: url("../fonts/GT-Pressura-Regular-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Pressura-Regular-Trial";
+  src: url("../fonts/GT-Pressura-Regular-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Pressura-Text-Italic-Trial";
+  src: url("../fonts/GT-Pressura-Text-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Pressura-Text-Trial";
+  src: url("../fonts/GT-Pressura-Text-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Pressura-Trial-VF";
+  src: url("../fonts/GT-Pressura-Trial-VF.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Sectra-Display-Medium-Italic-Trial";
+  src: url("../fonts/GT-Sectra-Display-Medium-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Sectra-Black-Italic-Trial";
+  src: url("../fonts/GT-Sectra-Black-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Sectra-Black-Trial";
+  src: url("../fonts/GT-Sectra-Black-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Sectra-Bold-Italic-Trial";
+  src: url("../fonts/GT-Sectra-Bold-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Sectra-Bold-Trial";
+  src: url("../fonts/GT-Sectra-Bold-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Sectra-Book-Italic-Trial";
+  src: url("../fonts/GT-Sectra-Book-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Sectra-Book-Trial";
+  src: url("../fonts/GT-Sectra-Book-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Sectra-Display-Bold-Italic-Trial";
+  src: url("../fonts/GT-Sectra-Display-Bold-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Sectra-Display-Bold-Trial";
+  src: url("../fonts/GT-Sectra-Display-Bold-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Sectra-Display-Light-Italic-Trial";
+  src: url("../fonts/GT-Sectra-Display-Light-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Sectra-Display-Light-Trial";
+  src: url("../fonts/GT-Sectra-Display-Light-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Sectra-Display-Medium-Trial";
+  src: url("../fonts/GT-Sectra-Display-Medium-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Sectra-Display-Regular-Italic-Trial";
+  src: url("../fonts/GT-Sectra-Display-Regular-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Sectra-Display-Regular-Trial";
+  src: url("../fonts/GT-Sectra-Display-Regular-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Sectra-Display-Super-Italic-Trial";
+  src: url("../fonts/GT-Sectra-Display-Super-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Sectra-Display-Super-Trial";
+  src: url("../fonts/GT-Sectra-Display-Super-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Sectra-Fine-Black-Italic-Trial";
+  src: url("../fonts/GT-Sectra-Fine-Black-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Sectra-Fine-Black-Trial";
+  src: url("../fonts/GT-Sectra-Fine-Black-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Sectra-Fine-Bold-Italic-Trial";
+  src: url("../fonts/GT-Sectra-Fine-Bold-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Sectra-Fine-Bold-Trial";
+  src: url("../fonts/GT-Sectra-Fine-Bold-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Sectra-Fine-Book-Italic-Trial";
+  src: url("../fonts/GT-Sectra-Fine-Book-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Sectra-Fine-Book-Trial";
+  src: url("../fonts/GT-Sectra-Fine-Book-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Sectra-Fine-Medium-Italic-Trial";
+  src: url("../fonts/GT-Sectra-Fine-Medium-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Sectra-Fine-Medium-Trial";
+  src: url("../fonts/GT-Sectra-Fine-Medium-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Sectra-Fine-Regular-Italic-Trial";
+  src: url("../fonts/GT-Sectra-Fine-Regular-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Sectra-Fine-Regular-Trial";
+  src: url("../fonts/GT-Sectra-Fine-Regular-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Sectra-Medium-Italic-Trial";
+  src: url("../fonts/GT-Sectra-Medium-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Sectra-Medium-Trial";
+  src: url("../fonts/GT-Sectra-Medium-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Sectra-Regular-Italic-Trial";
+  src: url("../fonts/GT-Sectra-Regular-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Sectra-Regular-Trial";
+  src: url("../fonts/GT-Sectra-Regular-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Super-Display-Medium";
+  src: url("../fonts/GT-Super-Display-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Super-Display-Bold-Italic";
+  src: url("../fonts/GT-Super-Display-Bold-Italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Super-Display-Bold";
+  src: url("../fonts/GT-Super-Display-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Super-Display-Light-Italic";
+  src: url("../fonts/GT-Super-Display-Light-Italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Super-Display-Light";
+  src: url("../fonts/GT-Super-Display-Light.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Super-Display-Medium-Italic";
+  src: url("../fonts/GT-Super-Display-Medium-Italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Super-Display-Regular-Italic";
+  src: url("../fonts/GT-Super-Display-Regular-Italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Super-Display-Regular";
+  src: url("../fonts/GT-Super-Display-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Super-Display-Super-Italic";
+  src: url("../fonts/GT-Super-Display-Super-Italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Super-Display-Super";
+  src: url("../fonts/GT-Super-Display-Super.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Super-Text-Black-Italic";
+  src: url("../fonts/GT-Super-Text-Black-Italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Super-Text-Black";
+  src: url("../fonts/GT-Super-Text-Black.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Super-Text-Bold-Italic";
+  src: url("../fonts/GT-Super-Text-Bold-Italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Super-Text-Bold";
+  src: url("../fonts/GT-Super-Text-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Super-Text-Book-Italic";
+  src: url("../fonts/GT-Super-Text-Book-Italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Super-Text-Book";
+  src: url("../fonts/GT-Super-Text-Book.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Super-Text-Medium-Italic";
+  src: url("../fonts/GT-Super-Text-Medium-Italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Super-Text-Medium";
+  src: url("../fonts/GT-Super-Text-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Super-Text-Regular-Italic";
+  src: url("../fonts/GT-Super-Text-Regular-Italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Super-Text-Regular";
+  src: url("../fonts/GT-Super-Text-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Ultra-Median-Thin-Trial";
+  src: url("../fonts/GT-Ultra-Median-Thin-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Ultra-Fine-Black-Italic-Trial";
+  src: url("../fonts/GT-Ultra-Fine-Black-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Ultra-Fine-Black-Trial";
+  src: url("../fonts/GT-Ultra-Fine-Black-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Ultra-Fine-Bold-Italic-Trial";
+  src: url("../fonts/GT-Ultra-Fine-Bold-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Ultra-Fine-Bold-Trial";
+  src: url("../fonts/GT-Ultra-Fine-Bold-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Ultra-Fine-Light-Italic-Trial";
+  src: url("../fonts/GT-Ultra-Fine-Light-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Ultra-Fine-Light-Trial";
+  src: url("../fonts/GT-Ultra-Fine-Light-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Ultra-Fine-Regular-Italic-Trial";
+  src: url("../fonts/GT-Ultra-Fine-Regular-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Ultra-Fine-Regular-Trial";
+  src: url("../fonts/GT-Ultra-Fine-Regular-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Ultra-Fine-Thin-Italic-Trial";
+  src: url("../fonts/GT-Ultra-Fine-Thin-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Ultra-Fine-Thin-Trial";
+  src: url("../fonts/GT-Ultra-Fine-Thin-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Ultra-Fine-Ultra-Trial";
+  src: url("../fonts/GT-Ultra-Fine-Ultra-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Ultra-Median-Black-Italic-Trial";
+  src: url("../fonts/GT-Ultra-Median-Black-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Ultra-Median-Black-Trial";
+  src: url("../fonts/GT-Ultra-Median-Black-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Ultra-Median-Bold-Italic-Trial";
+  src: url("../fonts/GT-Ultra-Median-Bold-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Ultra-Median-Bold-Trial";
+  src: url("../fonts/GT-Ultra-Median-Bold-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Ultra-Median-Light-Italic-Trial";
+  src: url("../fonts/GT-Ultra-Median-Light-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Ultra-Median-Light-Trial";
+  src: url("../fonts/GT-Ultra-Median-Light-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Ultra-Median-Regular-Italic-Trial";
+  src: url("../fonts/GT-Ultra-Median-Regular-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Ultra-Median-Regular-Trial";
+  src: url("../fonts/GT-Ultra-Median-Regular-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Ultra-Median-Thin-Italic-Trial";
+  src: url("../fonts/GT-Ultra-Median-Thin-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Ultra-Median-Ultra-Trial";
+  src: url("../fonts/GT-Ultra-Median-Ultra-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Ultra-Standard-Black-Italic-Trial";
+  src: url("../fonts/GT-Ultra-Standard-Black-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Ultra-Standard-Black-Trial";
+  src: url("../fonts/GT-Ultra-Standard-Black-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Ultra-Standard-Bold-Italic-Trial";
+  src: url("../fonts/GT-Ultra-Standard-Bold-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Ultra-Standard-Bold-Trial";
+  src: url("../fonts/GT-Ultra-Standard-Bold-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Ultra-Standard-Light-Italic-Trial";
+  src: url("../fonts/GT-Ultra-Standard-Light-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Ultra-Standard-Light-Trial";
+  src: url("../fonts/GT-Ultra-Standard-Light-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Ultra-Standard-Regular-Italic-Trial";
+  src: url("../fonts/GT-Ultra-Standard-Regular-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Ultra-Standard-Regular-Trial";
+  src: url("../fonts/GT-Ultra-Standard-Regular-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Ultra-Standard-Thin-Italic-Trial";
+  src: url("../fonts/GT-Ultra-Standard-Thin-Italic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Ultra-Standard-Thin-Trial";
+  src: url("../fonts/GT-Ultra-Standard-Thin-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Ultra-Standard-Ultra-Trial";
+  src: url("../fonts/GT-Ultra-Standard-Ultra-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Ultra-Trial-VF";
+  src: url("../fonts/GT-Ultra-Trial-VF.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Ultra-Ultra-Trial-VF";
+  src: url("../fonts/GT-Ultra-Ultra-Trial-VF.woff2") format("woff2");
+}
+@font-face {
+  font-family: "test-epicene-display-medium-italic";
+  src: url("../fonts/test-epicene-display-medium-italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "test-epicene-display-black-italic";
+  src: url("../fonts/test-epicene-display-black-italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "test-epicene-display-black";
+  src: url("../fonts/test-epicene-display-black.woff2") format("woff2");
+}
+@font-face {
+  font-family: "test-epicene-display-bold-italic";
+  src: url("../fonts/test-epicene-display-bold-italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "test-epicene-display-bold";
+  src: url("../fonts/test-epicene-display-bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "test-epicene-display-light-italic";
+  src: url("../fonts/test-epicene-display-light-italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "test-epicene-display-light";
+  src: url("../fonts/test-epicene-display-light.woff2") format("woff2");
+}
+@font-face {
+  font-family: "test-epicene-display-medium";
+  src: url("../fonts/test-epicene-display-medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: "test-epicene-display-regular-italic";
+  src: url("../fonts/test-epicene-display-regular-italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "test-epicene-display-regular";
+  src: url("../fonts/test-epicene-display-regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "test-epicene-text-black-italic";
+  src: url("../fonts/test-epicene-text-black-italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "test-epicene-text-black";
+  src: url("../fonts/test-epicene-text-black.woff2") format("woff2");
+}
+@font-face {
+  font-family: "test-epicene-text-bold-italic";
+  src: url("../fonts/test-epicene-text-bold-italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "test-epicene-text-bold";
+  src: url("../fonts/test-epicene-text-bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "test-epicene-text-light-italic";
+  src: url("../fonts/test-epicene-text-light-italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "test-epicene-text-light";
+  src: url("../fonts/test-epicene-text-light.woff2") format("woff2");
+}
+@font-face {
+  font-family: "test-epicene-text-medium-italic";
+  src: url("../fonts/test-epicene-text-medium-italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "test-epicene-text-medium";
+  src: url("../fonts/test-epicene-text-medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: "test-epicene-text-regular-italic";
+  src: url("../fonts/test-epicene-text-regular-italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "test-epicene-text-regular";
+  src: url("../fonts/test-epicene-text-regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaFlare-Bold-Trial";
+  src: url("../fonts/ABCArizonaFlare-Bold-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaFlare-BoldItalic-Trial";
+  src: url("../fonts/ABCArizonaFlare-BoldItalic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaFlare-Light-Trial";
+  src: url("../fonts/ABCArizonaFlare-Light-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaFlare-LightItalic-Trial";
+  src: url("../fonts/ABCArizonaFlare-LightItalic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaFlare-Medium-Trial";
+  src: url("../fonts/ABCArizonaFlare-Medium-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaFlare-MediumItalic-Trial";
+  src: url("../fonts/ABCArizonaFlare-MediumItalic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaFlare-Regular-Trial";
+  src: url("../fonts/ABCArizonaFlare-Regular-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaFlare-RegularItalic-Trial";
+  src: url("../fonts/ABCArizonaFlare-RegularItalic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaFlare-Thin-Trial";
+  src: url("../fonts/ABCArizonaFlare-Thin-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaFlare-ThinItalic-Trial";
+  src: url("../fonts/ABCArizonaFlare-ThinItalic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaFlare-Bold-Trial";
+  src: url("../fonts/ABCArizonaFlare-Bold-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaFlare-BoldItalic-Trial";
+  src: url("../fonts/ABCArizonaFlare-BoldItalic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaFlare-Light-Trial";
+  src: url("../fonts/ABCArizonaFlare-Light-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaFlare-LightItalic-Trial";
+  src: url("../fonts/ABCArizonaFlare-LightItalic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaFlare-Medium-Trial";
+  src: url("../fonts/ABCArizonaFlare-Medium-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaFlare-MediumItalic-Trial";
+  src: url("../fonts/ABCArizonaFlare-MediumItalic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaFlare-Regular-Trial";
+  src: url("../fonts/ABCArizonaFlare-Regular-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaFlare-RegularItalic-Trial";
+  src: url("../fonts/ABCArizonaFlare-RegularItalic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaFlare-Thin-Trial";
+  src: url("../fonts/ABCArizonaFlare-Thin-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaFlare-ThinItalic-Trial";
+  src: url("../fonts/ABCArizonaFlare-ThinItalic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaSerif-Bold-Trial";
+  src: url("../fonts/ABCArizonaSerif-Bold-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaSerif-BoldItalic-Trial";
+  src: url("../fonts/ABCArizonaSerif-BoldItalic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaSerif-Light-Trial";
+  src: url("../fonts/ABCArizonaSerif-Light-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaSerif-LightItalic-Trial";
+  src: url("../fonts/ABCArizonaSerif-LightItalic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaSerif-Medium-Trial";
+  src: url("../fonts/ABCArizonaSerif-Medium-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaSerif-MediumItalic-Trial";
+  src: url("../fonts/ABCArizonaSerif-MediumItalic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaSerif-Regular-Trial";
+  src: url("../fonts/ABCArizonaSerif-Regular-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaSerif-RegularItalic-Trial";
+  src: url("../fonts/ABCArizonaSerif-RegularItalic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaSerif-Thin-Trial";
+  src: url("../fonts/ABCArizonaSerif-Thin-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaSerif-ThinItalic-Trial";
+  src: url("../fonts/ABCArizonaSerif-ThinItalic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaText-Bold-Trial";
+  src: url("../fonts/ABCArizonaText-Bold-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaText-BoldItalic-Trial";
+  src: url("../fonts/ABCArizonaText-BoldItalic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaText-Light-Trial";
+  src: url("../fonts/ABCArizonaText-Light-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaText-LightItalic-Trial";
+  src: url("../fonts/ABCArizonaText-LightItalic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaText-Medium-Trial";
+  src: url("../fonts/ABCArizonaText-Medium-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaText-MediumItalic-Trial";
+  src: url("../fonts/ABCArizonaText-MediumItalic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaText-Regular-Trial";
+  src: url("../fonts/ABCArizonaText-Regular-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaText-RegularItalic-Trial";
+  src: url("../fonts/ABCArizonaText-RegularItalic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaText-Thin-Trial";
+  src: url("../fonts/ABCArizonaText-Thin-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaText-ThinItalic-Trial";
+  src: url("../fonts/ABCArizonaText-ThinItalic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaSans-Bold-Trial";
+  src: url("../fonts/ABCArizonaSans-Bold-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaSans-BoldItalic-Trial";
+  src: url("../fonts/ABCArizonaSans-BoldItalic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaSans-Light-Trial";
+  src: url("../fonts/ABCArizonaSans-Light-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaSans-LightItalic-Trial";
+  src: url("../fonts/ABCArizonaSans-LightItalic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaSans-Medium-Trial";
+  src: url("../fonts/ABCArizonaSans-Medium-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaSans-MediumItalic-Trial";
+  src: url("../fonts/ABCArizonaSans-MediumItalic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaSans-Regular-Trial";
+  src: url("../fonts/ABCArizonaSans-Regular-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaSans-RegularItalic-Trial";
+  src: url("../fonts/ABCArizonaSans-RegularItalic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaSans-Thin-Trial";
+  src: url("../fonts/ABCArizonaSans-Thin-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "ABCArizonaSans-ThinItalic-Trial";
+  src: url("../fonts/ABCArizonaSans-ThinItalic-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GT-Pressura";
+  src: url("../fonts/GT-Pressura-Extended-Light-Trial.woff2") format("woff2");
+}
+@font-face {
+  font-family: "HeldaneText-Medium";
+  src: url("../fonts/HeldaneText-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: "HeldaneText-MediumItalic";
+  src: url("../fonts/HeldaneText-MediumItalic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "HeldaneText-Regular";
+  src: url("../fonts/HeldaneText-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "HeldaneText-RegularItalic";
+  src: url("../fonts/HeldaneText-RegularItalic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "HeldaneText-Bold";
+  src: url("../fonts/HeldaneText-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "HeldaneText-BoldItalic";
+  src: url("../fonts/HeldaneText-BoldItalic.woff2") format("woff2");
 }
 body {
   font-family: "Inter", serif;
@@ -29,42 +839,112 @@ small {
   font-size: 15px;
 }
 
+p {
+  font-family: ABCArizonaFlare-Regular-Trial;
+  font-family: ABCArizonaSerif-Bold-Trial;
+  font-family: ABCArizonaSerif-BoldItalic-Trial;
+  font-family: ABCArizonaSerif-Light-Trial;
+  font-family: ABCArizonaText-Bold-Trial;
+  font-family: ABCArizonaText-BoldItalic-Trial;
+  font-family: ABCArizonaText-Light-Trial;
+  font-family: ABCArizonaText-LightItalic-Trial;
+  font-family: ABCArizonaText-Medium-Trial;
+  font-family: ABCArizonaText-MediumItalic-Trial;
+  font-family: ABCArizonaText-Regular-Trial;
+  font-family: ABCArizonaSans-Bold-Trial;
+  font-family: ABCArizonaSans-Medium-Trial;
+  font-family: ABCArizonaSans-Regular-Trial;
+  font-family: GT-Sectra-Display-Regular-Trial;
+  font-size: 20px;
+  line-height: 1.65rem;
+  padding: 100px 190px 0 0;
+}
+
+h3 {
+  font-size: 30px;
+  line-height: 35px;
+  font-family: GT-Sectra-Display-Medium-Italic-Trial;
+  font-family: GT-Sectra-Black-Italic-Trial;
+  font-family: GT-Sectra-Black-Trial;
+  font-family: GT-Sectra-Bold-Italic-Trial;
+  font-family: GT-Sectra-Bold-Trial;
+  font-family: GT-Sectra-Book-Italic-Trial;
+  font-family: GT-Sectra-Book-Trial;
+  font-family: GT-Pressura-Extended-Black-Italic-Trial;
+  font-family: GT-Pressura-Black-Italic-Trial;
+  font-family: GT-Pressura-Black-Trial;
+  font-family: GT-Pressura-Bold-Italic-Trial;
+  font-family: GT-Pressura-Bold-Trial;
+  font-family: GT-Pressura-Extended-Black-Trial;
+  font-family: GT-Pressura-Extended-Bold-Italic-Trial;
+  font-family: GT-Pressura-Extended-Bold-Trial;
+  font-family: GT-Pressura-Extended-Light-Italic-Trial;
+  font-family: GT-Pressura-Extended-Light-Trial;
+  font-family: GT-Pressura-Extended-Medium-Italic-Trial;
+  font-family: GT-Pressura-Extended-Medium-Trial;
+  font-family: GT-Pressura-Extended-Regular-Trial;
+  font-family: GT-Pressura-Extended-Text-Trial;
+  font-family: GT-Super-Display-Medium;
+  font-family: GT-Super-Display-Light-Italic;
+  font-family: GT-Super-Display-Light;
+  font-family: GT-Super-Display-Regular-Italic;
+  font-family: GT-Ultra-Fine-Light-Trial;
+  font-family: GT-Ultra-Fine-Regular-Italic-Trial;
+  font-family: GT-Ultra-Fine-Regular-Trial;
+  font-family: GT-Ultra-Fine-Thin-Trial;
+  font-family: test-epicene-display-light;
+}
+
+h3 em {
+  font-family: test-epicene-display-regular-italic;
+  font-family: test-epicene-display-light-italic;
+  font-style: normal;
+}
+
+small {
+  font-family: GT-Pressura-Extended-Medium-Trial;
+  font-family: GT-Pressura-Extended-Regular-Trial;
+}
+
+.sans {
+  font-family: "Inter", serif;
+  font-family: GT-Pressura-Extended-Regular-Trial;
+}
+
 .caps {
   text-transform: uppercase;
 }
 
+.sc {
+  font-family: "HeldaneText-Medium";
+  font-family: "HeldaneText-MediumItalic";
+  font-family: "HeldaneText-RegularItalic";
+  font-family: "HeldaneText-Bold";
+  font-family: "HeldaneText-BoldItalic";
+  font-family: "HeldaneText-Regular";
+  font-variant-caps: all-small-caps;
+  text-transform: lowercase;
+}
+
+a.cta {
+  font-size: 14px;
+  line-height: 17px;
+  background-color: blue;
+  color: white;
+  padding: 35px 28px 30px 28px;
+  border-radius: 50%;
+  text-align: center;
+  justify-self: center;
+  text-decoration: none;
+}
+
+a.cta:hover {
+  background-color: yellow;
+  color: black;
+}
+
 .flat {
   line-height: 0;
-}
-
-html {
-  height: 100%;
-}
-
-body {
-  height: 100%;
-}
-
-.page {
-  position: relative;
-  height: 100vh;
-  width: 100wh;
-}
-
-.page-2,
-.page-3 {
-  background: #181818;
-  color: #ccc;
-}
-
-.page-3 {
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.page-4 {
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  background: #181838;
-  color: #ccc;
 }
 
 .grid-main {
@@ -103,18 +983,107 @@ body {
 }
 
 .links {
-  display: flex;
-  justify-content: space-between;
   width: calc(100vw - 30px);
   margin-top: 5px;
-  margin-right: 10px;
-  margin-bottom: 20px;
+  margin-right: 15px;
+  margin-bottom: 15px;
   margin-left: 15px;
-  gap: 10px 20px;
 }
 
-.links.top {
-  margin-top: 10px;
+.grid-14 {
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  grid-column-gap: 20px;
+}
+
+.grid-14 .project {
+  grid-column: 4/span 5;
+}
+
+.grid-14 .home {
+  grid-column: 1/span 3;
+}
+
+.grid-14 .work {
+  grid-column: 9/span 2;
+}
+
+.grid-14 .studio {
+  grid-column: 14/span 1;
+}
+
+.grid-14.rows {
+  grid-template-rows: repeat(14, 7.1428571429%);
+}
+
+.grid-14 .opening {
+  grid-column: 3/span 9;
+}
+
+.grid-14 .intro {
+  grid-column: 2/span 8;
+  grid-row: 3/span 2;
+  z-index: 99;
+}
+
+.grid-14 .partner {
+  grid-column: span 2;
+  align-self: center;
+  padding: 20px;
+}
+
+.grid-14 .partner img {
+  mix-blend-mode: multiply;
+}
+
+.grid-14 #stickers {
+  grid-column: 2/span 8;
+  grid-row: 3/span 2;
+  z-index: 99;
+}
+
+.grid-14 .cta {
+  grid-column: 11/span 2;
+  grid-row: 8/span 1;
+  z-index: 99;
+}
+
+.grid-14 .full {
+  grid-column: 1/span 14;
+  grid-row: 1/span 14;
+}
+
+.grid-14 .frensbury-1 {
+  grid-column: 3/span 10;
+  grid-row: 1/span 14;
+}
+
+.grid-14 .liveyourworth {
+  grid-column: 1/span 14;
+  grid-row: 1/span 14;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  scroll-behavior: smooth;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+}
+.container .page {
+  position: relative;
+  height: 100vh;
+  width: 100wh;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  scroll-snap-align: start;
+}
+.container .page:nth-child(1) {
+  color: #181818;
+  background-color: #f5f5f0;
+  background-image: url("../brand/textures/texture-04.png");
 }
 
 body {
@@ -125,6 +1094,37 @@ body {
 
 img.max {
   width: 100%;
+}
+
+.grid-14 img.grid-img-1 {
+  grid-column: 5/span 5;
+  grid-row: 5/span 5;
+}
+
+.grid-14 img.grid-img-2 {
+  grid-column: 9/span 5;
+  grid-row: 7/span 5;
+}
+
+.grid-14 img.grid-img-3 {
+  grid-column: 7/span 4;
+  grid-row: 3/span 5;
+}
+
+.grid-14 .grid-img-A {
+  grid-column: 5/span 5;
+  grid-row: 5/span 7;
+  background-color: blue;
+  background-image: url("../img/hivstory-01.png");
+  background-size: cover;
+}
+
+.grid-14 .grid-img-B {
+  grid-column: 9/span 5;
+  grid-row: 7/span 7;
+  background-color: yellow;
+  background-image: url("../img/hivstory-02.png");
+  background-size: cover;
 }
 
 .wordmark img {
@@ -201,22 +1201,283 @@ video {
   left: 0;
 }
 
-img.hide {
-  opacity: 0;
+/*html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+*/
+#stickers {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: flex-start;
+  box-sizing: border-box;
 }
 
-.container {
+#stickers .sticker {
+  flex: 0 0 auto;
+  margin: 50px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+#stickers .sticker * {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  pointer-events: none;
+}
+
+#stickers .sticker .sticker-container {
   position: relative;
-  width: 100%;
-  height: 100vh;
-  scroll-behavior: smooth;
-  overflow: auto;
-  scroll-snap-type: y mandatory;
+  transform-style: preserve-3d;
 }
 
-.page {
+#stickers .sticker .sticker-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#stickers .sticker .sticker-clip {
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+}
+
+#stickers .sticker .sticker-front, #stickers .sticker-back {
+  position: absolute;
+  overflow: hidden;
+  pointer-events: all;
+}
+
+#stickers .sticker .sticker-front {
+  z-index: 1;
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#stickers .sticker .sticker-back {
+  z-index: 2;
+}
+
+#stickers .sticker .sticker-clip {
+  transition: 500ms ease-in-out transform;
+}
+
+#stickers .sticker .sticker-front, #stickers .sticker .sticker-back {
+  transition: 500ms ease-in-out transform;
+}
+
+#stickers .sticker-2 {
+  width: 150px;
+  height: 100px;
+  /*  text-align: center;*/
+}
+
+#stickers .sticker-2 .sticker-container {
+  width: 180.2817635663px;
+  height: 180.2817635663px;
+  top: -40.1408817831px;
+  left: -15.1408817831px;
+  transform: rotate(0deg);
+}
+
+#stickers .sticker-2 .sticker-wrapper {
+  width: 180.2817635663px;
+  height: 180.2817635663px;
+  transform: rotate(60deg);
+}
+
+#stickers .sticker-2 .sticker-clip {
+  width: 180.2817635663px;
+  height: 180.2817635663px;
+}
+
+#stickers .sticker-2 .sticker-front, #stickers .sticker-2 .sticker-back {
+  left: 15.1408817831px;
+  top: 40.1408817831px;
+  width: 150px;
+  height: 100px;
+  border-radius: 20px;
+}
+
+#stickers .sticker-2 .sticker-clip {
+  transform: translateX(16.5488110638px);
+}
+
+#stickers .sticker-2 .sticker-front {
+  transform: rotate(-60deg) translateX(-8.2744055319px) translateY(-14.3316907837px);
+}
+
+#stickers .sticker-2 .sticker-back {
+  transform: rotate(240deg) translateX(81.8664694016px) translateY(-141.7968950532px);
+}
+
+#stickers .sticker-2:hover .sticker-clip {
+  transform: translateX(75.4224676393px);
+}
+
+#stickers .sticker-2:hover .sticker-front {
+  transform: rotate(-60deg) translateX(-37.7112338196px) translateY(-65.3177729917px);
+}
+
+#stickers .sticker-2:hover .sticker-back {
+  transform: rotate(240deg) translateX(52.4296435768px) translateY(-90.8108132948px);
+}
+
+#stickers .sticker-2 .sticker-front {
+  background-color: #3498db;
+}
+
+#stickers .sticker-2 .sticker-back {
+  background-color: #2980b9;
+}
+
+#stickers .sticker-4 {
+  width: 120px;
+  height: 120px;
+}
+
+#stickers .sticker-4 .sticker-container {
+  width: 169.7075756307px;
+  height: 169.7075756307px;
+  top: -24.8537878154px;
+  left: -24.8537878154px;
+  transform: rotate(0deg);
+}
+
+#stickers .sticker-4 .sticker-wrapper {
+  width: 169.7075756307px;
+  height: 169.7075756307px;
+  transform: rotate(120deg);
+}
+
+#stickers .sticker-4 .sticker-clip {
+  width: 169.7075756307px;
+  height: 169.7075756307px;
+}
+
+#stickers .sticker-4 .sticker-front, #stickers .sticker-4 .sticker-back {
+  left: 24.8537878154px;
+  top: 24.8537878154px;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+}
+
+#stickers .sticker-4 .sticker-clip {
+  transform: translateX(24.4325038789px);
+}
+
+#stickers .sticker-4 .sticker-front {
+  transform: rotate(-120deg) translateX(12.2162519394px) translateY(-21.1591690372px);
+}
+
+#stickers .sticker-4 .sticker-back {
+  transform: rotate(300deg) translateX(-72.6383453319px) translateY(-125.811717688px);
+}
+
+#stickers .sticker-4:hover .sticker-clip {
+  transform: translateX(121.1065581772px);
+}
+
+#stickers .sticker-4:hover .sticker-front {
+  transform: rotate(-120deg) translateX(60.5532790886px) translateY(-104.8813559464px);
+}
+
+#stickers .sticker-4:hover .sticker-back {
+  transform: rotate(300deg) translateX(-24.300779526px) translateY(-42.0896538785px);
+}
+
+#stickers .sticker-4 .sticker-front {
+  background-color: #e74c3c;
+}
+
+#stickers .sticker-4 .sticker-back {
+  background-color: #c0392b;
+}
+
+#stickers .sticker-6 {
+  width: 100px;
+  height: 150px;
+}
+
+#stickers .sticker-6 .sticker-container {
+  width: 180.2817635663px;
+  height: 180.2817635663px;
+  top: -15.1408817831px;
+  left: -40.1408817831px;
+  transform: rotate(0deg);
+}
+
+#stickers .sticker-6 .sticker-wrapper {
+  width: 180.2817635663px;
+  height: 180.2817635663px;
+  transform: rotate(10deg);
+}
+
+#stickers .sticker-6 .sticker-clip {
+  width: 180.2817635663px;
+  height: 180.2817635663px;
+}
+
+#stickers .sticker-6 .sticker-front, #stickers .sticker-6 .sticker-back {
+  left: 40.1408817831px;
+  top: 15.1408817831px;
+  width: 100px;
+  height: 150px;
+  border-radius: 50px;
+}
+
+#stickers .sticker-6 .sticker-clip {
+  transform: translateX(35.0187308105px);
+}
+
+#stickers .sticker-6 .sticker-front {
+  transform: rotate(-10deg) translateX(-34.4867176029px) translateY(-6.0809387895px);
+}
+
+#stickers .sticker-6 .sticker-back {
+  transform: rotate(190deg) translateX(143.0561608479px) translateY(-25.2246609152px);
+}
+
+#stickers .sticker-6:hover .sticker-clip {
+  transform: translateX(123.2141723667px);
+}
+
+#stickers .sticker-6:hover .sticker-front {
+  transform: rotate(-10deg) translateX(-121.3422722277px) translateY(-21.3959164942px);
+}
+
+#stickers .sticker-6:hover .sticker-back {
+  transform: rotate(190deg) translateX(56.2006062449px) translateY(-9.9096832136px);
+}
+
+#stickers .sticker-6 .sticker-front {
+  background-color: #f1c40f;
+}
+
+#stickers .sticker-6 .sticker-back {
+  background-color: #f39c12;
+}
+
+.flex {
+  display: flex;
+  text-align: center;
+  background-color: red;
   width: 100%;
-  height: 100vh;
-  background-size: cover;
-  scroll-snap-align: start;
+  height: 100%;
+  color: red;
 }

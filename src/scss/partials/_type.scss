@@ -1,8 +1,3 @@
-@font-face {
-  font-family: 'GT-Pressura-1';
-  src: url("../fonts/GT-Pressura-Extended-Light-Trial.woff2") format('woff2');
-}
-
 body {
   font-family:          "Inter", serif;
   font-optical-sizing:  auto;
@@ -14,8 +9,248 @@ small{
   font-size:            15px;
 }
 
+p {
+// font-family: 'HeldaneText-Medium';
+// font-family: 'HeldaneText-MediumItalic';
+// font-family: 'HeldaneText-RegularItalic';
+// font-family: 'HeldaneText-Bold';
+// font-family: 'HeldaneText-BoldItalic';
+// font-family: 'HeldaneText-Regular';
+// font-family: ABCArizonaFlare-Bold-Trial;
+// font-family: ABCArizonaFlare-BoldItalic-Trial;
+// font-family: ABCArizonaFlare-Light-Trial;
+// font-family: ABCArizonaFlare-LightItalic-Trial;
+// font-family: ABCArizonaFlare-Medium-Trial;
+// font-family: ABCArizonaFlare-MediumItalic-Trial;
+font-family: ABCArizonaFlare-Regular-Trial;
+// font-family: ABCArizonaFlare-RegularItalic-Trial;
+// font-family: ABCArizonaFlare-Thin-Trial;
+// font-family: ABCArizonaFlare-ThinItalic-Trial;
+font-family: ABCArizonaSerif-Bold-Trial;
+font-family: ABCArizonaSerif-BoldItalic-Trial;
+font-family: ABCArizonaSerif-Light-Trial;
+// font-family: ABCArizonaSerif-LightItalic-Trial;
+// font-family: ABCArizonaSerif-Medium-Trial;
+// font-family: ABCArizonaSerif-MediumItalic-Trial;
+// font-family: ABCArizonaSerif-Regular-Trial;
+// font-family: ABCArizonaSerif-RegularItalic-Trial;
+// font-family: ABCArizonaSerif-Thin-Trial;
+// font-family: ABCArizonaSerif-ThinItalic-Trial;
+font-family: ABCArizonaText-Bold-Trial;
+font-family: ABCArizonaText-BoldItalic-Trial;
+font-family: ABCArizonaText-Light-Trial;
+font-family: ABCArizonaText-LightItalic-Trial;
+font-family: ABCArizonaText-Medium-Trial;
+font-family: ABCArizonaText-MediumItalic-Trial;
+font-family: ABCArizonaText-Regular-Trial;
+// font-family: ABCArizonaText-RegularItalic-Trial;
+// font-family: ABCArizonaText-Thin-Trial;
+// font-family: ABCArizonaText-ThinItalic-Trial;
+font-family: ABCArizonaSans-Bold-Trial;
+// font-family: ABCArizonaSans-BoldItalic-Trial;
+// font-family: ABCArizonaSans-Light-Trial;
+// font-family: ABCArizonaSans-LightItalic-Trial;
+font-family: ABCArizonaSans-Medium-Trial;
+// font-family: ABCArizonaSans-MediumItalic-Trial;
+font-family: ABCArizonaSans-Regular-Trial;
+// font-family: ABCArizonaSans-RegularItalic-Trial;
+// font-family: ABCArizonaSans-Thin-Trial;
+// font-family: ABCArizonaSans-ThinItalic-Trial;
+
+font-family: GT-Sectra-Display-Regular-Trial;
+// font-family: GT-Sectra-Display-Super-Italic-Trial;
+// font-family: GT-Sectra-Display-Super-Trial;
+// font-family: GT-Sectra-Fine-Black-Italic-Trial;
+// font-family: GT-Sectra-Fine-Black-Trial;
+// font-family: GT-Sectra-Fine-Bold-Italic-Trial;
+// font-family: GT-Sectra-Fine-Bold-Trial;
+// font-family: GT-Sectra-Fine-Book-Italic-Trial;
+// font-family: GT-Sectra-Fine-Book-Trial;
+// font-family: GT-Sectra-Fine-Medium-Italic-Trial;
+// font-family: GT-Sectra-Fine-Medium-Trial;
+// font-family: GT-Sectra-Fine-Regular-Italic-Trial;
+// font-family: GT-Sectra-Fine-Regular-Trial;
+// font-family: GT-Sectra-Medium-Italic-Trial;
+// font-family: GT-Sectra-Medium-Trial;
+// font-family: GT-Sectra-Regular-Italic-Trial;
+// font-family: GT-Sectra-Regular-Trial;
+
+font-size: 20px;
+line-height: 1.65rem;
+padding: 100px 190px 0 0;
+}
+
+h3{
+  font-size: 30px;
+  line-height: 35px;
+
+
+font-family: GT-Sectra-Display-Medium-Italic-Trial;
+font-family: GT-Sectra-Black-Italic-Trial;
+font-family: GT-Sectra-Black-Trial;
+font-family: GT-Sectra-Bold-Italic-Trial;
+font-family: GT-Sectra-Bold-Trial;
+font-family: GT-Sectra-Book-Italic-Trial;
+font-family: GT-Sectra-Book-Trial;
+// font-family: GT-Sectra-Display-Bold-Italic-Trial;
+// font-family: GT-Sectra-Display-Bold-Trial;
+// font-family: GT-Sectra-Display-Light-Italic-Trial;
+// font-family: GT-Sectra-Display-Light-Trial;
+// font-family: GT-Sectra-Display-Medium-Trial;
+// font-family: GT-Sectra-Display-Regular-Italic-Trial;
+// font-family: GT-Sectra-Display-Regular-Trial;
+// font-family: GT-Sectra-Display-Super-Italic-Trial;
+// font-family: GT-Sectra-Display-Super-Trial;
+// font-family: GT-Sectra-Fine-Black-Italic-Trial;
+// font-family: GT-Sectra-Fine-Black-Trial;
+// font-family: GT-Sectra-Fine-Bold-Italic-Trial;
+// font-family: GT-Sectra-Fine-Bold-Trial;
+// font-family: GT-Sectra-Fine-Book-Italic-Trial;
+// font-family: GT-Sectra-Fine-Book-Trial;
+// font-family: GT-Sectra-Fine-Medium-Italic-Trial;
+
+font-family: GT-Pressura-Extended-Black-Italic-Trial;
+font-family: GT-Pressura-Black-Italic-Trial;
+font-family: GT-Pressura-Black-Trial;
+font-family: GT-Pressura-Bold-Italic-Trial;
+font-family: GT-Pressura-Bold-Trial;
+font-family: GT-Pressura-Extended-Black-Trial;
+font-family: GT-Pressura-Extended-Bold-Italic-Trial;
+font-family: GT-Pressura-Extended-Bold-Trial;
+font-family: GT-Pressura-Extended-Light-Italic-Trial;
+font-family: GT-Pressura-Extended-Light-Trial;
+font-family: GT-Pressura-Extended-Medium-Italic-Trial;
+font-family: GT-Pressura-Extended-Medium-Trial;
+// font-family: GT-Pressura-Extended-Regular-Italic-Trial;
+font-family: GT-Pressura-Extended-Regular-Trial;
+// font-family: GT-Pressura-Extended-Text-Italic-Trial;
+font-family: GT-Pressura-Extended-Text-Trial;
+// font-family: GT-Pressura-Light-Italic-Trial;
+// font-family: GT-Pressura-Light-Trial;
+// font-family: GT-Pressura-Medium-Italic-Trial;
+// font-family: GT-Pressura-Medium-Trial;
+// font-family: GT-Pressura-Mono-Black-Italic-Trial;
+// font-family: GT-Pressura-Mono-Black-Trial;
+// font-family: GT-Pressura-Mono-Bold-Italic-Trial;
+// font-family: GT-Pressura-Mono-Bold-Trial;
+// font-family: GT-Pressura-Mono-Light-Italic-Trial;
+// font-family: GT-Pressura-Mono-Light-Trial;
+// font-family: GT-Pressura-Mono-Medium-Italic-Trial;
+// font-family: GT-Pressura-Mono-Medium-Trial;
+// font-family: GT-Pressura-Mono-Regular-Italic-Trial;
+// font-family: GT-Pressura-Mono-Regular-Trial;
+// font-family: GT-Pressura-Mono-Text-Italic-Trial;
+// font-family: GT-Pressura-Mono-Text-Trial;
+// font-family: GT-Pressura-Regular-Trial;
+// font-family: GT-Pressura-Text-Italic-Trial;
+// font-family: GT-Pressura-Text-Trial;
+// font-family: GT-Pressura-Trial-VF;
+
+font-family: GT-Super-Display-Medium;
+font-family: GT-Super-Display-Light-Italic;
+font-family: GT-Super-Display-Light;
+font-family: GT-Super-Display-Regular-Italic;
+// font-family: GT-Super-Text-Regular-Italic;
+// font-family: GT-Super-Text-Regular;
+
+font-family: GT-Ultra-Fine-Light-Trial;
+font-family: GT-Ultra-Fine-Regular-Italic-Trial;
+font-family: GT-Ultra-Fine-Regular-Trial;
+font-family: GT-Ultra-Fine-Thin-Trial;
+// font-family: GT-Ultra-Median-Light-Italic-Trial;
+// font-family: GT-Ultra-Median-Light-Trial;
+// font-family: GT-Ultra-Median-Regular-Italic-Trial;
+// font-family: GT-Ultra-Median-Regular-Trial;
+// font-family: GT-Ultra-Median-Ultra-Trial;
+// font-family: GT-Ultra-Standard-Light-Italic-Trial;
+// font-family: GT-Ultra-Standard-Light-Trial;
+// font-family: GT-Ultra-Standard-Regular-Italic-Trial;
+// font-family: GT-Ultra-Standard-Regular-Trial;
+// font-family: GT-Ultra-Standard-Thin-Italic-Trial;
+// font-family: GT-Ultra-Standard-Thin-Trial;
+// font-family: GT-Ultra-Trial-VF;
+
+// font-family: test-epicene-display-medium-italic;
+// font-family: test-epicene-display-bold;
+font-family: test-epicene-display-light;
+// font-family: test-epicene-display-bold-italic;
+
+// font-family: test-epicene-display-medium;
+// font-family: test-epicene-display-regular;
+// font-family: test-epicene-text-black-italic;
+// font-family: test-epicene-text-black;
+// font-family: test-epicene-text-bold-italic;
+// font-family: test-epicene-text-bold;
+// font-family: test-epicene-text-light-italic;
+// font-family: test-epicene-text-light;
+// font-family: test-epicene-text-medium-italic;
+// font-family: test-epicene-text-medium;
+// font-family: test-epicene-text-regular;
+}
+
+h3 em{
+// font-family: GT-Ultra-Median-Thin-Italic-Trial;
+font-family: test-epicene-display-regular-italic;
+font-family: test-epicene-display-light-italic;
+// background: red;
+
+
+// font-family: test-epicene-text-regular-italic;
+
+// font-family: GT-Ultra-Median-Thin-Trial;
+// font-family: GT-Ultra-Fine-Light-Italic-Trial;
+// font-family: GT-Super-Display-Regular;
+
+font-style: normal;
+
+}
+
+
+small{
+  font-family: GT-Pressura-Extended-Medium-Trial;
+// font-family: GT-Pressura-Extended-Regular-Italic-Trial;
+font-family: GT-Pressura-Extended-Regular-Trial;
+// font-family: GT-Pressura-Extended-Text-Italic-Trial;
+// font-family: GT-Pressura-Extended-Text-Trial;
+}
+
+.sans{
+  font-family:          "Inter", serif;
+  font-family: GT-Pressura-Extended-Regular-Trial;
+
+}
+
 .caps {
   text-transform:       uppercase;
+}
+.sc{
+font-family: 'HeldaneText-Medium';
+font-family: 'HeldaneText-MediumItalic';
+font-family: 'HeldaneText-RegularItalic';
+font-family: 'HeldaneText-Bold';
+font-family: 'HeldaneText-BoldItalic';
+font-family: 'HeldaneText-Regular';
+font-variant-caps: all-small-caps;
+text-transform: lowercase;
+
+}
+
+a.cta{
+  font-size: 14px;
+  line-height: 17px;
+  background-color: blue;
+  color: white;
+  padding: 35px 28px 30px 28px;
+  border-radius: 50%;
+  text-align: center;
+  justify-self: center;
+  text-decoration: none;
+}
+
+
+a.cta:hover{
+  background-color: yellow;
+  color: black;
 }
 
 .flat{
