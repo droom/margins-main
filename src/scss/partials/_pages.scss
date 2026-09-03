@@ -1,31 +1,29 @@
-$color_1: #181818;
-$color_2: #ccc;
-$background-color_1: #f5f5f0;
-
-.container {
-  position:         relative;
-  width:            100%;
+.page{
+  display:          flex;
+  flex-direction:   column;
+  flex-flow:        column nowrap;
+  flex-wrap:        nowrap;
+  justify-content:  space-between;
   height:           100vh;
-  scroll-behavior:  smooth;
-  overflow:         auto;
-  scroll-snap-type: y mandatory;
-  
-  .page {
-    position: relative;
-    height: 100vh;
-    width: 100wh;
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    scroll-snap-align: start;
+  width:            100vw;
+  position:         relative;
+  top:              0;
+  left:             0;
+  overflow: hidden;
+}
 
+.page.intro{
+    background: #111;
+    color: #aaa; 
+}
 
-    &:nth-child(1) {
-      color:            $color_1;
-      background-color: $background-color_1;
-      background-image: url("../brand/textures/texture-04.png");
-    }
+.page.hivstory{
+    background: #4046F5;
+    color: #f3f3f3; 
+}
 
-
-  }
+.page.frendsbury{
+    background: #7798be;
+    // background-image: url("../img/frendsbury-03.png");
+    // background-size: cover;
 }

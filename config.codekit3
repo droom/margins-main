@@ -7,8 +7,16 @@
       "uuidString" : "DF4ECB36-F16F-4B84-976B-2ADCA026D384"
     }
   ],
-  "creatorBuild" : "34627",
+  "creatorBuild" : "34704",
   "files" : {
+    "\/dist\/about.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/about.html",
+      "oF" : 0
+    },
     "\/dist\/audio\/waves-01.mp3" : {
       "cB" : 0,
       "ft" : 8192,
@@ -340,6 +348,22 @@
       "oAP" : "\/dist\/brand\/favicon\/site.webmanifest",
       "oF" : 0
     },
+    "\/dist\/brand\/hero\/birds-1.mp4" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/brand\/hero\/birds-1.mp4",
+      "oF" : 0
+    },
+    "\/dist\/brand\/hero\/birds-2.mp4" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/brand\/hero\/birds-2.mp4",
+      "oF" : 0
+    },
     "\/dist\/brand\/hero\/birds.mp4" : {
       "cB" : 0,
       "ft" : 8192,
@@ -436,6 +460,19 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/dist\/brand\/partners\/partner-4ad.png" : {
+      "ft" : 32768,
+      "iS" : 5061,
+      "oA" : 0,
+      "oAP" : "\/dist\/brand\/partners\/partner-4ad.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/dist\/brand\/partners\/partner-05.png" : {
       "ft" : 32768,
       "iS" : 74597,
@@ -475,19 +512,6 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/dist\/brand\/partners\/partner-08.png" : {
-      "ft" : 32768,
-      "iS" : 5061,
-      "oA" : 0,
-      "oAP" : "\/dist\/brand\/partners\/partner-08.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
     "\/dist\/brand\/partners\/partner-09.png" : {
       "ft" : 32768,
       "iS" : 17383,
@@ -501,37 +525,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/dist\/brand\/partners\/partner-10.jpg" : {
-      "ft" : 16384,
-      "iS" : 49324,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/brand\/partners\/partner-10.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/dist\/brand\/partners\/partner-10.png" : {
-      "ft" : 32768,
-      "iS" : 8215,
-      "oA" : 0,
-      "oAP" : "\/dist\/brand\/partners\/partner-10.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/dist\/brand\/partners\/partner-11.png" : {
+    "\/dist\/brand\/partners\/partner-great-state.png" : {
       "ft" : 32768,
       "iS" : 53073,
       "oA" : 0,
-      "oAP" : "\/dist\/brand\/partners\/partner-11.png",
+      "oAP" : "\/dist\/brand\/partners\/partner-great-state.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -540,141 +538,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/dist\/brand\/partners\/partner-12.png" : {
+    "\/dist\/brand\/partners\/partner-xl.png" : {
       "ft" : 32768,
-      "iS" : 10090,
+      "iS" : 8215,
       "oA" : 0,
-      "oAP" : "\/dist\/brand\/partners\/partner-12.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/dist\/brand\/stripe.png" : {
-      "ft" : 32768,
-      "iS" : 113136,
-      "oA" : 0,
-      "oAP" : "\/dist\/brand\/stripe.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/dist\/brand\/textures\/texture-01.png" : {
-      "ft" : 32768,
-      "iS" : 80065,
-      "oA" : 0,
-      "oAP" : "\/dist\/brand\/textures\/texture-01.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/dist\/brand\/textures\/texture-02.png" : {
-      "ft" : 32768,
-      "iS" : 80065,
-      "oA" : 0,
-      "oAP" : "\/dist\/brand\/textures\/texture-02.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/dist\/brand\/textures\/texture-03.png" : {
-      "ft" : 32768,
-      "iS" : 11130,
-      "oA" : 0,
-      "oAP" : "\/dist\/brand\/textures\/texture-03.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/dist\/brand\/textures\/texture-04.png" : {
-      "ft" : 32768,
-      "iS" : 145637,
-      "oA" : 0,
-      "oAP" : "\/dist\/brand\/textures\/texture-04.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/dist\/brand\/textures\/texture-05.png" : {
-      "ft" : 32768,
-      "iS" : 75655,
-      "oA" : 0,
-      "oAP" : "\/dist\/brand\/textures\/texture-05.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/dist\/brand\/textures\/texture-06.png" : {
-      "ft" : 32768,
-      "iS" : 202,
-      "oA" : 0,
-      "oAP" : "\/dist\/brand\/textures\/texture-06.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/dist\/brand\/textures\/texture-07.png" : {
-      "ft" : 32768,
-      "iS" : 277,
-      "oA" : 0,
-      "oAP" : "\/dist\/brand\/textures\/texture-07.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/dist\/brand\/textures\/texture-08.png" : {
-      "ft" : 32768,
-      "iS" : 20845,
-      "oA" : 0,
-      "oAP" : "\/dist\/brand\/textures\/texture-08.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/dist\/brand\/textures\/texture-09.png" : {
-      "ft" : 32768,
-      "iS" : 2380,
-      "oA" : 0,
-      "oAP" : "\/dist\/brand\/textures\/texture-09.png",
+      "oAP" : "\/dist\/brand\/partners\/partner-xl.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -695,6 +563,94 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/dist\/fonts\/graphik-400-regular.otf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/graphik-400-regular.otf",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/graphik-500-medium.otf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/graphik-500-medium.otf",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/GT-Pressura-Extended-Regular-Trial.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/GT-Pressura-Extended-Regular-Trial.woff2",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/HeldaneText-Bold.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/HeldaneText-Bold.woff2",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/HeldaneText-BoldItalic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/HeldaneText-BoldItalic.woff2",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/HeldaneText-Medium.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/HeldaneText-Medium.woff2",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/HeldaneText-MediumItalic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/HeldaneText-MediumItalic.woff2",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/HeldaneText-Regular.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/HeldaneText-Regular.woff2",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/HeldaneText-RegularItalic.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/HeldaneText-RegularItalic.woff2",
+      "oF" : 0
+    },
+    "\/dist\/frendsbury.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/frendsbury.html",
+      "oF" : 0
+    },
+    "\/dist\/hivstory.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/hivstory.html",
+      "oF" : 0
+    },
     "\/dist\/img\/bigchange.png" : {
       "ft" : 32768,
       "iS" : 199245,
@@ -708,118 +664,53 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/dist\/img\/example-01.png" : {
+    "\/dist\/img\/frendsbury-01.png" : {
       "ft" : 32768,
-      "iS" : 5303250,
+      "iS" : 3360701,
       "oA" : 0,
-      "oAP" : "\/dist\/img\/example-01.png",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/dist\/img\/example-02.png" : {
-      "ft" : 32768,
-      "iS" : 560303,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/example-02.png",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/dist\/img\/example-03.png" : {
-      "ft" : 32768,
-      "iS" : 4683731,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/example-03.png",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/dist\/img\/example-04.png" : {
-      "ft" : 32768,
-      "iS" : 2366761,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/example-04.png",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/dist\/img\/example-05.png" : {
-      "ft" : 32768,
-      "iS" : 316265,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/example-05.png",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/dist\/img\/example-06.png" : {
-      "ft" : 32768,
-      "iS" : 3620473,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/example-06.png",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/dist\/img\/example-07.png" : {
-      "ft" : 32768,
-      "iS" : 2452657,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/example-07.png",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/dist\/img\/example-08.png" : {
-      "ft" : 32768,
-      "iS" : 3374723,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/example-08.png",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/dist\/img\/frensbury.png" : {
-      "ft" : 32768,
-      "iS" : 286087,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/frensbury.png",
+      "oAP" : "\/dist\/img\/frendsbury-01.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/dist\/img\/frendsbury-02.png" : {
+      "ft" : 32768,
+      "iS" : 2535888,
+      "oA" : 1,
+      "oAP" : "\/dist\/img\/frendsbury-02.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/dist\/img\/frendsbury-03.png" : {
+      "ft" : 32768,
+      "iS" : 1744801,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/frendsbury-03.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/dist\/img\/frendsbury-04.png" : {
+      "ft" : 32768,
+      "iS" : 383265,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/frendsbury-04.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
@@ -851,11 +742,50 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/dist\/img\/hivstory-03.png" : {
+      "ft" : 32768,
+      "iS" : 1519449,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/hivstory-03.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/dist\/img\/hivstory-04.png" : {
+      "ft" : 32768,
+      "iS" : 43646,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/hivstory-04.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/dist\/img\/liveyourworth.png" : {
       "ft" : 32768,
       "iS" : 185668,
       "oA" : 0,
       "oAP" : "\/dist\/img\/liveyourworth.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/dist\/img\/logo.png" : {
+      "ft" : 32768,
+      "iS" : 787764,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/logo.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -916,14 +846,6 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/dist\/img\/snck-03.psd" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/snck-03.psd",
-      "oF" : 0
-    },
     "\/dist\/img\/snck-04.png" : {
       "ft" : 32768,
       "iS" : 58982,
@@ -937,21 +859,24 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/dist\/img\/snck-04.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/dist\/img\/snck-04.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/dist\/img\/snck-05.png" : {
+    "\/dist\/img\/snck-06.png" : {
       "ft" : 32768,
-      "iS" : 463763,
+      "iS" : 787833,
       "oA" : 0,
-      "oAP" : "\/dist\/img\/snck-05.png",
+      "oAP" : "\/dist\/img\/snck-06.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/dist\/img\/snck-07.png" : {
+      "ft" : 32768,
+      "iS" : 89650,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/snck-07.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -968,6 +893,69 @@
       "oAP" : "\/dist\/index.html",
       "oF" : 0
     },
+    "\/dist\/intro.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/intro.html",
+      "oF" : 0
+    },
+    "\/dist\/js\/fade-scroll-01-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/dist\/js\/fade-scroll-01-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dist\/js\/fade-scroll-01.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/dist\/js\/fade-scroll-01-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dist\/js\/fade-scroll-02.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/dist\/js\/fade-scroll-02-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dist\/js\/jquery-3.7.1.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/dist\/js\/jquery-3.7.1.min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dist\/js\/jquery.min-01.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/dist\/js\/jquery.min-01-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/dist\/js\/jquery.min.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -975,17 +963,6 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/dist\/js\/jquery.min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/dist\/js\/margins.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/dist\/js\/margins-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -1001,6 +978,71 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/dist\/js\/waypoints-jquery.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/dist\/js\/waypoints-jquery.min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dist\/js\/waypoints-jquery.waypoints.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/dist\/js\/waypoints-jquery.waypoints.min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dist\/js\/waypoints-script.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/dist\/js\/waypoints-script-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dist\/snck.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/snck.html",
+      "oF" : 0
+    },
+    "\/dist\/waypoints.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/waypoints.html",
+      "oF" : 0
+    },
+    "\/src\/frendsbury.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/frendsbury.html",
+      "oF" : 2
+    },
+    "\/src\/hivstory.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/hivstory.html",
+      "oF" : 2
+    },
     "\/src\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -1009,12 +1051,44 @@
       "oAP" : "\/dist\/index.html",
       "oF" : 2
     },
+    "\/src\/intro.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/intro.html",
+      "oF" : 2
+    },
+    "\/src\/menu" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/menu",
+      "oF" : 0
+    },
     "\/src\/partials\/_head.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/src\/partials\/_head.html",
+      "oF" : 0
+    },
+    "\/src\/partials\/_menu.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/src\/partials\/_menu.html",
+      "oF" : 0
+    },
+    "\/src\/partials\/_script.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/src\/partials\/_script.html",
       "oF" : 0
     },
     "\/src\/scss\/margins.scss" : {
@@ -1043,7 +1117,7 @@
       "oS" : 0,
       "pg" : 0
     },
-    "\/src\/scss\/partials\/_colour.scss" : {
+    "\/src\/scss\/partials\/_birds.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1051,33 +1125,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/scss\/partials\/_colour.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0
-    },
-    "\/src\/scss\/partials\/_gradient.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/src\/scss\/partials\/_gradient.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0
-    },
-    "\/src\/scss\/partials\/_grid_14.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/src\/scss\/partials\/_grid_14.css",
+      "oAP" : "\/src\/scss\/partials\/_birds.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -1095,7 +1143,7 @@
       "oS" : 0,
       "pg" : 0
     },
-    "\/src\/scss\/partials\/_images.scss" : {
+    "\/src\/scss\/partials\/_image.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1103,7 +1151,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/scss\/partials\/_images.css",
+      "oAP" : "\/src\/scss\/partials\/_image.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -1121,6 +1169,19 @@
       "oS" : 0,
       "pg" : 0
     },
+    "\/src\/scss\/partials\/_stars.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/src\/scss\/partials\/_stars.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
     "\/src\/scss\/partials\/_sticker.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1130,19 +1191,6 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/src\/scss\/partials\/_sticker.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0
-    },
-    "\/src\/scss\/partials\/_type-includes.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/src\/scss\/partials\/_type-includes.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -1160,7 +1208,7 @@
       "oS" : 0,
       "pg" : 0
     },
-    "\/src\/scss\/partials\/_video.scss" : {
+    "\/src\/scss\/partials\/_waypoints.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1168,26 +1216,34 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/scss\/partials\/_video.css",
+      "oAP" : "\/src\/scss\/partials\/_waypoints.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
     },
-    "\/src\/txt\/copy.html" : {
+    "\/src\/snck.kit" : {
       "cB" : 0,
-      "ft" : 8192,
+      "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/src\/txt\/copy.html",
+      "oAP" : "\/dist\/snck.html",
+      "oF" : 2
+    },
+    "\/src\/stickers.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/stickers.html",
       "oF" : 0
     },
-    "\/src\/txt\/hivstory" : {
+    "\/src\/waypoints.kit" : {
       "cB" : 0,
-      "ft" : 8192,
+      "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/src\/txt\/hivstory",
-      "oF" : 0
+      "oAP" : "\/dist\/waypoints.html",
+      "oF" : 2
     }
   },
   "hooks" : [
@@ -1499,8 +1555,6 @@
     "buildFolderActive" : 0,
     "buildFolderName" : "build",
     "cleanBuild" : 1,
-    "cssoForceMediaMerge" : 0,
-    "cssoRestructure" : 1,
     "environmentVariableEntries" : [
       "NODE_ENV:::production"
     ],

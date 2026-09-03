@@ -1,14 +1,4 @@
-/*html, body {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  font-family: sans-serif;
-}
-*/
 #stickers {
-  // background: #2c3e50;
   height: 100%;
   width: 100%;
   overflow-x: hidden;
@@ -20,15 +10,8 @@
   justify-content: space-around;
   align-items: center;
   align-content: flex-start;
-  // padding: 50px;
   box-sizing: border-box;
-
-
 }
-
-
-
-
 
 #stickers .sticker {
   flex: 0 0 auto;
@@ -65,16 +48,16 @@
   background-position: center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
-
-
-
 }
+
 #stickers .sticker .sticker-back {
   z-index: 2;
 }
+
 #stickers .sticker .sticker-clip {
   transition: 500ms ease-in-out transform;
 }
+
 #stickers .sticker .sticker-front, #stickers .sticker .sticker-back {
   transition: 500ms ease-in-out transform;
 }

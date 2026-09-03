@@ -1,12 +1,42 @@
 @use "partials/_base.scss";
-@use "partials/_type-includes.scss";
-@use "partials/_type.scss";
-
 @use "partials/_grid.scss";
-@use "partials/_grid_14.scss";
 @use "partials/_pages.scss";
-@use "partials/_colour.scss";
-@use "partials/_images.scss";
-@use "partials/_gradient.scss";
-@use "partials/_video.scss";
+@use "partials/_birds.scss";
+@use "partials/_image.scss";
+
+@use "partials/_type.scss";
+@use "partials/_waypoints.scss";
 @use "partials/_sticker.scss";
+@use "partials/_stars.scss";
+
+
+cite{
+	display: inline-block;
+}
+
+.common{
+  line-height:      0;
+  padding-top: 		  15px;
+  padding-left:     15px;
+  padding-right:    15px;
+  padding-bottom:   17px;
+  padding-top:      19px;
+}
+
+.dev-menu{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  background: yellow;
+  padding: 20px;
+}
+
+.copyright{
+  background: yellow;
+  font-size: .5rem;
+  vertical-align: top;
+  margin-top: -0.25em;
+  margin-left: 0.08em;
+  display: inline-block;
+}

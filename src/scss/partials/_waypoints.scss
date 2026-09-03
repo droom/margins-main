@@ -1,0 +1,63 @@
+.fiftyfifty {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fiftyfifty .basic {
+  flex-basis: 50%;
+}
+.fiftyfifty .basic:last-of-type {
+  text-align: right;
+}
+
+.js .to_fade_up, 
+.js .to_fade_from_left, 
+.js .to_fade_from_right {
+  visibility: hidden;
+}
+.js .fade_up {
+  visibility: visible;
+  animation: fadeUp 2s; 
+}
+.js .fade_from_left {
+  visibility: visible;
+  animation: fadeFromLeft 1s; 
+}
+.js .fade_from_right {
+  visibility: visible;
+  animation: fadeFromRight 1s; 
+}
+
+
+@keyframes fadeUp {
+  0% {
+    opacity: .1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeFromLeft {
+  0% {
+    filter: alpha(opacity=0);
+    opacity: .1;
+    transform: translateX(-100%);
+  }
+  100% {
+    filter: alpha(opacity=100);
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes fadeFromRight {
+  0% {
+    filter: alpha(opacity=0);
+    opacity: .1;
+    transform: translateX(100%);
+  }
+  100% {
+    filter: alpha(opacity=100);
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
