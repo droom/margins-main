@@ -2,74 +2,24 @@
   font-family: GT-Pressura;
   src: url(../fonts/GT-Pressura-Extended-Regular-Trial.woff2);
 }
-@font-face {
-  font-family: 'HeldaneText-Medium';
-  src: url(../fonts/HeldaneText-Medium.woff2) format('woff2');
-}
-@font-face {
-  font-family: 'HeldaneText-MediumItalic';
-  src: url(../fonts/HeldaneText-MediumItalic.woff2) format('woff2');
-}
-@font-face {
-  font-family: 'HeldaneText-Regular';
-  src: url(../fonts/HeldaneText-Regular.woff2) format('woff2');
-}
-@font-face {
-  font-family: 'HeldaneText-RegularItalic';
-  src: url(../fonts/HeldaneText-RegularItalic.woff2) format('woff2');
-}
-@font-face {
-  font-family: 'HeldaneText-Bold';
-  src: url(../fonts/HeldaneText-Bold.woff2) format('woff2');
-}
-@font-face {
-  font-family: 'HeldaneText-BoldItalic';
-  src: url(../fonts/HeldaneText-BoldItalic.woff2) format('woff2');
-}
 
 :root {
---HeldaneReg:     'HeldaneText-Regular', monospace;
---HeldaneRegIta:  'HeldaneText-RegularItalic', monospace;
---HeldaneMed:     'HeldaneText-Medium', monospace;
---HeldaneMedIta:  'HeldaneText-MediumItalic', monospace;
---HeldaneBold:    'HeldaneText-Bold', monospace;
---HeldaneBoldIta: 'HeldaneText-BoldItalic', monospace;
---GT-Pressura:    'GT-Pressura', arial;
+--GT-Pressura: 'GT-Pressura', arial;
 }
-
 
 body{
   font-family: var(--GT-Pressura);
 }
 
-p{
+small, p{
   font-size: 1.14rem;
   line-height: 1.5rem;
 }
 
-
-.justify{
-  text-justify: inter-word;
-}
-
-.snck h2 {
-  font-family: var(--HeldaneReg);
-  font-size: 35px;
-  line-height: 38px;
-  
-}
-
-.prologue{
-  font-size: 30px;
-  font-family: var(--HeldaneReg);
-  font-weight: 300;
-  text-rendering: optimizeLegibility;
-}
-
-.prologue cite{
-  font-style: normal;
-  font-family: var(--HeldaneRegIta);
-  opacity: 0.3;
-  padding-left: 0.2em;
-
+.copyright{
+  font-size: .5rem;
+  vertical-align: top;
+  margin-top: -0.25em;
+  margin-left: 0.08em;
+  display: inline-block;
 }

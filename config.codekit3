@@ -33,243 +33,9 @@
       "oAP" : "\/dist\/audio\/waves-02.mp3",
       "oF" : 0
     },
-    "\/dist\/brand\/favicon\/016.png" : {
-      "ft" : 32768,
-      "iS" : 574,
-      "oA" : 0,
-      "oAP" : "\/dist\/brand\/favicon\/016.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/dist\/brand\/favicon\/032.png" : {
-      "ft" : 32768,
-      "iS" : 1390,
-      "oA" : 0,
-      "oAP" : "\/dist\/brand\/favicon\/032.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/dist\/brand\/favicon\/036.png" : {
-      "ft" : 32768,
-      "iS" : 1616,
-      "oA" : 0,
-      "oAP" : "\/dist\/brand\/favicon\/036.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/dist\/brand\/favicon\/048.png" : {
-      "ft" : 32768,
-      "iS" : 2466,
-      "oA" : 0,
-      "oAP" : "\/dist\/brand\/favicon\/048.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/dist\/brand\/favicon\/057.png" : {
-      "ft" : 32768,
-      "iS" : 3241,
-      "oA" : 0,
-      "oAP" : "\/dist\/brand\/favicon\/057.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/dist\/brand\/favicon\/060.png" : {
-      "ft" : 32768,
-      "iS" : 3467,
-      "oA" : 0,
-      "oAP" : "\/dist\/brand\/favicon\/060.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/dist\/brand\/favicon\/070.png" : {
-      "ft" : 32768,
-      "iS" : 4386,
-      "oA" : 0,
-      "oAP" : "\/dist\/brand\/favicon\/070.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/dist\/brand\/favicon\/072.png" : {
-      "ft" : 32768,
-      "iS" : 4699,
-      "oA" : 0,
-      "oAP" : "\/dist\/brand\/favicon\/072.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/dist\/brand\/favicon\/076.png" : {
-      "ft" : 32768,
-      "iS" : 5055,
-      "oA" : 0,
-      "oAP" : "\/dist\/brand\/favicon\/076.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/dist\/brand\/favicon\/096.png" : {
-      "ft" : 32768,
-      "iS" : 7308,
-      "oA" : 0,
-      "oAP" : "\/dist\/brand\/favicon\/096.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/dist\/brand\/favicon\/114.png" : {
-      "ft" : 32768,
-      "iS" : 9534,
-      "oA" : 0,
-      "oAP" : "\/dist\/brand\/favicon\/114.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/dist\/brand\/favicon\/120.png" : {
-      "ft" : 32768,
-      "iS" : 10419,
-      "oA" : 0,
-      "oAP" : "\/dist\/brand\/favicon\/120.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/dist\/brand\/favicon\/144.png" : {
-      "ft" : 32768,
-      "iS" : 13912,
-      "oA" : 0,
-      "oAP" : "\/dist\/brand\/favicon\/144.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/dist\/brand\/favicon\/152.png" : {
-      "ft" : 32768,
-      "iS" : 15034,
-      "oA" : 0,
-      "oAP" : "\/dist\/brand\/favicon\/152.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/dist\/brand\/favicon\/180.png" : {
-      "ft" : 32768,
-      "iS" : 19460,
-      "oA" : 0,
-      "oAP" : "\/dist\/brand\/favicon\/180.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/dist\/brand\/favicon\/192.png" : {
-      "ft" : 32768,
-      "iS" : 22469,
-      "oA" : 0,
-      "oAP" : "\/dist\/brand\/favicon\/192.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/dist\/brand\/favicon\/310.png" : {
-      "ft" : 32768,
-      "iS" : 45381,
-      "oA" : 0,
-      "oAP" : "\/dist\/brand\/favicon\/310.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/dist\/brand\/favicon\/500.png" : {
-      "ft" : 32768,
-      "iS" : 86593,
-      "oA" : 0,
-      "oAP" : "\/dist\/brand\/favicon\/500.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
     "\/dist\/brand\/favicon\/android-chrome-192x192.png" : {
       "ft" : 32768,
-      "iS" : 28272,
+      "iS" : 6779,
       "oA" : 0,
       "oAP" : "\/dist\/brand\/favicon\/android-chrome-192x192.png",
       "oF" : 0,
@@ -282,7 +48,7 @@
     },
     "\/dist\/brand\/favicon\/android-chrome-512x512.png" : {
       "ft" : 32768,
-      "iS" : 121962,
+      "iS" : 32271,
       "oA" : 0,
       "oAP" : "\/dist\/brand\/favicon\/android-chrome-512x512.png",
       "oF" : 0,
@@ -295,7 +61,7 @@
     },
     "\/dist\/brand\/favicon\/apple-touch-icon.png" : {
       "ft" : 32768,
-      "iS" : 25459,
+      "iS" : 6146,
       "oA" : 0,
       "oAP" : "\/dist\/brand\/favicon\/apple-touch-icon.png",
       "oF" : 0,
@@ -308,7 +74,7 @@
     },
     "\/dist\/brand\/favicon\/favicon-16x16.png" : {
       "ft" : 32768,
-      "iS" : 550,
+      "iS" : 369,
       "oA" : 0,
       "oAP" : "\/dist\/brand\/favicon\/favicon-16x16.png",
       "oF" : 0,
@@ -321,7 +87,7 @@
     },
     "\/dist\/brand\/favicon\/favicon-32x32.png" : {
       "ft" : 32768,
-      "iS" : 1523,
+      "iS" : 820,
       "oA" : 0,
       "oAP" : "\/dist\/brand\/favicon\/favicon-32x32.png",
       "oF" : 0,
@@ -348,14 +114,6 @@
       "oAP" : "\/dist\/brand\/favicon\/site.webmanifest",
       "oF" : 0
     },
-    "\/dist\/brand\/hero\/birds-1.mp4" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/brand\/hero\/birds-1.mp4",
-      "oF" : 0
-    },
     "\/dist\/brand\/hero\/birds-2.mp4" : {
       "cB" : 0,
       "ft" : 8192,
@@ -371,6 +129,32 @@
       "oA" : 0,
       "oAP" : "\/dist\/brand\/hero\/birds.mp4",
       "oF" : 0
+    },
+    "\/dist\/brand\/hero\/birds.png" : {
+      "ft" : 32768,
+      "iS" : 184421,
+      "oA" : 0,
+      "oAP" : "\/dist\/brand\/hero\/birds.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/dist\/brand\/hero\/glow.png" : {
+      "ft" : 32768,
+      "iS" : 130870,
+      "oA" : 0,
+      "oAP" : "\/dist\/brand\/hero\/glow.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
     },
     "\/dist\/brand\/hero\/sky.jpg" : {
       "ft" : 16384,
@@ -643,6 +427,14 @@
       "oAP" : "\/dist\/frendsbury.html",
       "oF" : 0
     },
+    "\/dist\/gradient.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/gradient.html",
+      "oF" : 0
+    },
     "\/dist\/hivstory.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -682,19 +474,6 @@
       "iS" : 2535888,
       "oA" : 1,
       "oAP" : "\/dist\/img\/frendsbury-02.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/dist\/img\/frendsbury-03.png" : {
-      "ft" : 32768,
-      "iS" : 1744801,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/frendsbury-03.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1011,6 +790,14 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/dist\/product.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/product.html",
+      "oF" : 0
+    },
     "\/dist\/snck.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1019,28 +806,12 @@
       "oAP" : "\/dist\/snck.html",
       "oF" : 0
     },
-    "\/dist\/waypoints.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/waypoints.html",
-      "oF" : 0
-    },
-    "\/src\/frendsbury.kit" : {
+    "\/src\/gradient.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/frendsbury.html",
-      "oF" : 2
-    },
-    "\/src\/hivstory.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/hivstory.html",
+      "oAP" : "\/dist\/gradient.html",
       "oF" : 2
     },
     "\/src\/index.kit" : {
@@ -1051,20 +822,12 @@
       "oAP" : "\/dist\/index.html",
       "oF" : 2
     },
-    "\/src\/intro.kit" : {
+    "\/src\/partials\/_devmenu.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/intro.html",
-      "oF" : 2
-    },
-    "\/src\/menu" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/src\/menu",
+      "oA" : 1,
+      "oAP" : "\/src\/partials\/_devmenu.html",
       "oF" : 0
     },
     "\/src\/partials\/_head.kit" : {
@@ -1075,14 +838,6 @@
       "oAP" : "\/src\/partials\/_head.html",
       "oF" : 0
     },
-    "\/src\/partials\/_menu.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/src\/partials\/_menu.html",
-      "oF" : 0
-    },
     "\/src\/partials\/_script.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -1090,6 +845,14 @@
       "oA" : 1,
       "oAP" : "\/src\/partials\/_script.html",
       "oF" : 0
+    },
+    "\/src\/projects.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/product.html",
+      "oF" : 2
     },
     "\/src\/scss\/margins.scss" : {
       "aP" : 0,
@@ -1117,7 +880,7 @@
       "oS" : 0,
       "pg" : 0
     },
-    "\/src\/scss\/partials\/_birds.scss" : {
+    "\/src\/scss\/partials\/_curve.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1125,7 +888,20 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/src\/scss\/partials\/_birds.css",
+      "oAP" : "\/src\/scss\/partials\/_curve.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/src\/scss\/partials\/_gradient.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/src\/scss\/partials\/_gradient.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -1143,6 +919,19 @@
       "oS" : 0,
       "pg" : 0
     },
+    "\/src\/scss\/partials\/_hero.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/src\/scss\/partials\/_hero.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
     "\/src\/scss\/partials\/_image.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1152,45 +941,6 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/src\/scss\/partials\/_image.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0
-    },
-    "\/src\/scss\/partials\/_pages.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/src\/scss\/partials\/_pages.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0
-    },
-    "\/src\/scss\/partials\/_stars.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/src\/scss\/partials\/_stars.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0
-    },
-    "\/src\/scss\/partials\/_sticker.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/src\/scss\/partials\/_sticker.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -1208,41 +958,12 @@
       "oS" : 0,
       "pg" : 0
     },
-    "\/src\/scss\/partials\/_waypoints.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/src\/scss\/partials\/_waypoints.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0
-    },
     "\/src\/snck.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/snck.html",
-      "oF" : 2
-    },
-    "\/src\/stickers.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/src\/stickers.html",
-      "oF" : 0
-    },
-    "\/src\/waypoints.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/waypoints.html",
       "oF" : 2
     }
   },
@@ -1254,8 +975,8 @@
   },
   "projectAttributes" : {
     "creationDate" : 763947071.04274905,
-    "displayValue" : "margins-main",
-    "displayValueWasSetByUser" : 0,
+    "displayValue" : "Margins",
+    "displayValueWasSetByUser" : 1,
     "iconImageName" : "\/dist\/brand\/favicon\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0
   },

@@ -1,33 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-
-   <!-- "Living as we did on the edge we developed a particular way of seeing reality. We looked both from the outside in and from the inside out. This mode of seeing reminded us of the existence of a whole universe, a main body made up of both margin and centre." — bell hooks -->
-
-
    <head>
       <!-- @import "partials/_head" -->
-
-
    </head>
    <body>
 
-   <!-- @import "partials/_menu" -->
-   <div class="container">
-      <div class="page">
-         <div class="grid-page">
-            <div class="wordmark"><img class="max" src="brand/logo.svg"/></div>
-            <div class="frame"><div class="sky"></div></div>
-            <div class="common">
-               <strong>MARGINS<span class="copyright">&copy;</span></strong><small> Visual Communication</small>
-            </div>
-         </div>
+   <!-- @import "partials/_devmenu" -->
 
-         <div class="birds">
-            <video muted loop autoplay>
-               <source src="brand/hero/birds.mp4" type="video/mp4">
-            </video>
+   <div class="page">
+      <div class="hero-flex">
+         <div class="hero-wordmark"><img class="max" src="brand/logo.svg"/></div>
+         <div class="hero-frame">
+            <div class="hero-sky"></div>
+         </div>
+         <div class="hero-common">
+            <strong>MARGINS<span class="copyright">&copy;</span></strong><small> Visual Communication</small>
          </div>
       </div>
+
+      <!-- Outside of DOM -->
+      <div class="hero-birds">
+         <video muted loop autoplay>
+            <source src="brand/hero/birds.mp4" type="video/mp4">
+         </video>
+      </div>
+
+
    </div>
 
    <!-- @import "partials/_script" -->

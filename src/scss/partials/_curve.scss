@@ -1,0 +1,16 @@
+.along-a-circle{
+	margin-left: 35vw;
+	margin-top: 60vh;
+}
+
+
+.along-a-circle {
+  offset-path: path("M 100,0 A 100,100 0 1 1 100,200 A 100,100 0 1 1 100,0");
+  animation: along-a-circle 10s linear infinite;
+}
+
+@keyframes along-a-circle {
+  100% {
+    offset-distance: 100%;
+  }
+}
