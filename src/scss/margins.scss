@@ -1,10 +1,8 @@
 @use "partials/_base.scss";
 @use "partials/_grid.scss";
 @use "partials/_hero.scss";
-@use "partials/_image.scss";
+@use "partials/_image.sass";
 @use "partials/_type.scss";
-// @use "partials/_gradient.scss";
-// @use "partials/_curve.scss";
 
 .dev-menu{
   position: absolute;
